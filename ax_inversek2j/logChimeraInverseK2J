@@ -1,0 +1,37 @@
+[root@3701ec33bd3d clang-chimera]# ./launch.sh 
++ clang-chimera -v -debug -fun-op conf.csv -generate-mutants ../src/kinematics.cpp -cd-dir ../src/build -o output -- -std=c++11 -I../code/include -I../code/include/segmantation
+[CHIMERA INFO] A custom compilation database search path has been specified. Skipping default searching.
+[CHIMERA VERBOSE-0] > Configuration file : conf.csv
+[CHIMERA VERBOSE-0] > Retrieving compileCommands for /opt/inversek2j/clang-chimera/../src/kinematics.cpp
+[CHIMERA VERBOSE-1] => Comparing with File: /opt/inversek2j/src/kinematics.cpp
+[CHIMERA VERBOSE-1] => Successful. Match found!
+[CHIMERA VERBOSE-0] > [ RUN  ] Building MutationTemplate
+[CHIMERA VERBOSE-1] => Setting output directory: /opt/inversek2j/clang-chimera/output/mutants/
+[CHIMERA VERBOSE-1] => Setting target path: /opt/inversek2j/clang-chimera/../src/kinematics.cpp
+[CHIMERA VERBOSE-0] > [ DONE ] Building MutationTemplate
+Reserving id:1.Operation: 1
+Reserving id:2.Operation: 1
+Reserving id:3.Operation: 1
+Reserving id:4.Operation: 1
+Reserving id:5.Operation: 1
+Function : inversek2j
+Operator : VPANOperator
+[CHIMERA VERBOSE-0] > [ RUN  ] Internal tool
+[CHIMERA VERBOSE-1] => Creating output folder /opt/inversek2j/clang-chimera/output/mutants/kinematics.cpp/
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ FAIL ]
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ FAIL ]
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ FAIL ]
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ FAIL ]
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ FAIL ]
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ FAIL ]
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ FAIL ]
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ FAIL ]
+[CHIMERA VERBOSE-0] > [ DONE ] Internal tool

@@ -1,0 +1,6 @@
+OP_0,16,DOUBLE,ADD,"OP_1","OP_2","NULL"
+OP_1,16,DOUBLE,MUL,"l1","cos(theta1)","NULL"
+OP_2,16,DOUBLE,MUL,"l2","cos(theta1+theta2)","NULL"
+OP_3,17,DOUBLE,ADD,"OP_4","OP_5","NULL"
+OP_4,17,DOUBLE,MUL,"l1","sin(theta1)","NULL"
+OP_5,17,DOUBLE,MUL,"l2","sin(theta1+theta2)","NULL"

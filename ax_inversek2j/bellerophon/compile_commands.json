@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/opt/inversek2j/bellerophon",
+  "command": "/usr/bin/clang++    -I/opt/inversek2j/src/../../boost_1_67_0 -I/opt/inversek2j/src/.   -Wfatal-errors -fno-use-cxa-atexit -fPIC -g   -std=gnu++11 -o CMakeFiles/inversek2j.dir/kinematics.cpp.o -c /opt/inversek2j/clang-chimera/output/mutants/kinematics.cpp/4/kinematics.cpp",
+  "file": "/opt/inversek2j/src/kinematics.cpp"
+},
+{
+  "directory": "/opt/inversek2j/src/build",
+  "command": "/usr/bin/clang++    -I/opt/inversek2j/src/../../boost_1_67_0 -I/opt/inversek2j/src/.   -Wfatal-errors -fno-use-cxa-atexit -fPIC -g   -std=gnu++11 -o CMakeFiles/inversek2j.dir/inversek2j.cpp.o -c /opt/inversek2j/src/inversek2j.cpp",
+  "file": "/opt/inversek2j/src/inversek2j.cpp"
+},
+{
+  "directory": "/opt/inversek2j/bellerophon",
+  "command": "usr/bin/clang++ -I/opt/inversek2j/src -Wfatal-errors -fno-use-cxa-atexit -fPIC -g   -std=gnu++11 -c /opt/inversek2j/bellerophon/bellerophon_functions.cpp",
+  "file": "/opt/inversek2j/bellerophon/bellerophon_functions.cpp"  
+}
+]
