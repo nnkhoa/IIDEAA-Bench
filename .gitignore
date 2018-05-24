@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+#Ignore IIDEAA src code for now
+iidea-install/
