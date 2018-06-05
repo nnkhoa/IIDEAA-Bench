@@ -1,0 +1,91 @@
++ clang-chimera -v -debug -fun-op conf.csv -generate-mutants ../src/blackscholes.cpp -cd-dir ../src/build -o output -- -std=c++11 -I../code/include -I../code/include/segmantation
+[CHIMERA INFO] A custom compilation database search path has been specified. Skipping default searching.
+[CHIMERA VERBOSE-0] > Configuration file : conf.csv
+[CHIMERA VERBOSE-0] > Retrieving compileCommands for /opt/ax_blackscholes/clang-chimera/../src/blackscholes.cpp
+[CHIMERA VERBOSE-1] => Comparing with File: /opt/ax_blackscholes/src/blackscholes.cpp
+[CHIMERA VERBOSE-1] => Successful. Match found!
+[CHIMERA VERBOSE-0] > [ RUN  ] Building MutationTemplate
+[CHIMERA VERBOSE-1] => Setting output directory: /opt/ax_blackscholes/clang-chimera/output/mutants/
+[CHIMERA VERBOSE-1] => Setting target path: /opt/ax_blackscholes/clang-chimera/../src/blackscholes.cpp
+[CHIMERA VERBOSE-0] > [ DONE ] Building MutationTemplate
+Reserving id:1.Operation: 1
+Reserving id:2.Operation: 1
+Reserving id:3.Operation: 1
+Reserving id:4.Operation: 1
+Reserving id:5.Operation: 1
+Function : main
+Operator : VPANOperator
+[CHIMERA VERBOSE-0] > [ RUN  ] Internal tool
+[CHIMERA VERBOSE-1] => Creating output folder /opt/ax_blackscholes/clang-chimera/output/mutants/blackscholes.cpp/
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ FAIL ]
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ PASS ]
+[CHIMERA VERBOSE-3] ===> [4] Applying mutation in /opt/ax_blackscholes/src/blackscholes.cpp:339:25
+********************************************************
+Dump binary operation:
+Operation:  ==> [/]
+LHS: data[i].s
+RHS: 
+I or III type
+it is an externalAssignOp
+External assignment operation: 
+Last value: 
+[CHIMERA VERBOSE-3] ===> [4][ RUN  ] Checking mutant
+[CHIMERA VERBOSE-4] ====> Building CompilationDatabase
+[CHIMERA VERBOSE-4] ====> [ RUN  ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> [ DONE ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> Running syntax check
+/opt/ax_blackscholes/clang-chimera/output/mutants/blackscholes.cpp/temp/blackscholes.cpp:340:72: error: expected ')'
+        sptprice[i]   =(double)( ::vpa_n::VPA(data[i].s , OP_0)/ DIVIDE;
+                                                                       ^
+/opt/ax_blackscholes/clang-chimera/output/mutants/blackscholes.cpp/temp/blackscholes.cpp:340:32: note: to match this '('
+        sptprice[i]   =(double)( ::vpa_n::VPA(data[i].s , OP_0)/ DIVIDE;
+                               ^
+1 error generated.
+Error while processing /opt/ax_blackscholes/clang-chimera/../src/blackscholes.cpp.
+[CHIMERA VERBOSE-3] ===> [4][ FAIL ] Checking mutant
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ FAIL ]
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ PASS ]
+[CHIMERA VERBOSE-3] ===> [4] Applying mutation in /opt/ax_blackscholes/src/blackscholes.cpp:340:25
+********************************************************
+Dump binary operation:
+Operation:  ==> [/]
+LHS: data[i].strike
+RHS: 
+I or III type
+it is an externalAssignOp
+External assignment operation: 
+Last value: 
+[CHIMERA VERBOSE-3] ===> [4][ RUN  ] Checking mutant
+[CHIMERA VERBOSE-4] ====> Building CompilationDatabase
+[CHIMERA VERBOSE-4] ====> [ RUN  ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> [ DONE ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> Running syntax check
+/opt/ax_blackscholes/clang-chimera/output/mutants/blackscholes.cpp/temp/blackscholes.cpp:341:72: error: expected ')'
+        sptprice[i]   =(double)( ::vpa_n::VPA(data[i].s , OP_0)/ DIVIDE;
+                                                                       ^
+/opt/ax_blackscholes/clang-chimera/output/mutants/blackscholes.cpp/temp/blackscholes.cpp:341:32: note: to match this '('
+        sptprice[i]   =(double)( ::vpa_n::VPA(data[i].s , OP_0)/ DIVIDE;
+                               ^
+/opt/ax_blackscholes/clang-chimera/output/mutants/blackscholes.cpp/temp/blackscholes.cpp:342:77: error: expected ')'
+        strike[i]     =(double)( ::vpa_n::VPA(data[i].strike , OP_1)/ DIVIDE;
+                                                                            ^
+/opt/ax_blackscholes/clang-chimera/output/mutants/blackscholes.cpp/temp/blackscholes.cpp:342:32: note: to match this '('
+        strike[i]     =(double)( ::vpa_n::VPA(data[i].strike , OP_1)/ DIVIDE;
+                               ^
+2 errors generated.
+Error while processing /opt/ax_blackscholes/clang-chimera/../src/blackscholes.cpp.
+[CHIMERA VERBOSE-3] ===> [4][ FAIL ] Checking mutant
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ FAIL ]
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ FAIL ]
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ FAIL ]
+Id: OP_0; Op1: data[i].s;		 Op2: 
+Id: OP_1; Op1: data[i].strike;		 Op2: 
+LLVM ERROR: IO failure on output stream.
+

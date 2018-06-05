@@ -222,11 +222,15 @@ fptype BlkSchlsEqEuroNoDiv( fptype sptprice,
 }
 
 
-double normalize(double in, double min, double max, double min_new, double max_new)
-{
-    return (((in - min) / (max - min)) * (max_new - min_new)) + min_new ;
-}
-
+//double normalize(double in, double min, double max, double min_new, double max_new)
+//{
+//    return (((in - min) / (max - min)) * (max_new - min_new)) + min_new ;
+//}
+//
+//void normalizeVoid(double *in, double *min, double *max, double *min_new, double *max_new, double *output){
+//	output = (((in - min) / (max -min)) * (max_new - min_new)) + min_new;
+//}
+//
 int bs_thread(void *tid_ptr) {
     int i, j;
 
@@ -253,14 +257,14 @@ int bs_thread(void *tid_ptr) {
             dataIn[4]   = otime[i];
             dataIn[5]   = otype[i];
 
-#pragma parrot(input, "blackscholes", [6]dataIn)
+//#pragma parrot(input, "blackscholes", [6]dataIn)
 
                 price_orig = BlkSchlsEqEuroNoDiv( sptprice[i], strike[i],
                                          rate[i], volatility[i], otime[i], 
                                          otype[i], 0, &N1, &N2);
                 dataOut[0] = price_orig;
 
-#pragma parrot(output, "blackscholes", [1]<0.1; 0.9>dataOut)
+//#pragma parrot(output, "blackscholes", [1]<0.1; 0.9>dataOut)
 
                 price_orig = dataOut[0];
                 prices[i] = price_orig;
@@ -269,7 +273,7 @@ int bs_thread(void *tid_ptr) {
     return 0;
 }
 
-int main (int argc, char **argv)
+void doWork (const char* inputFile, const char* outputFile)
 {
     FILE *file;
     int i;
@@ -282,8 +286,8 @@ int main (int argc, char **argv)
 	fflush(NULL);
 
 
-    char *inputFile = argv[1];
-    char *outputFile = argv[2];
+    //char *inputFile = argv[1];
+    //char *outputFile = argv[2];
 
     //Read input data from file
     file = fopen(inputFile, "r");
@@ -372,7 +376,10 @@ int main (int argc, char **argv)
 
     free(data);
     free(prices);
-
-    return 0;
 }
 
+int main(int argc, char** argv){
+    doWork(argv[1], argv[2]);
+    
+    return 0;
+}

@@ -47,5 +47,5 @@ INCLUDE_DIRECTORIES(/usr/include)
 INCLUDE_DIRECTORIES(./)
 LINK_DIRECTORIES(./)
 
-set(SOURCE_FILES blackscholes.cpp)
+set(SOURCE_FILES blackscholes.cpp blackscholes.hpp)
 add_executable(blackscholes ${SOURCE_FILES})
