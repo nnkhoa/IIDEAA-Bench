@@ -1,0 +1,654 @@
++ clang-chimera -v -debug -fun-op conf.csv -generate-mutants ../src/fourier.cpp -cd-dir ../src/build -o output -- -std=c++11 -I../code/include -I../code/include/segmantation
+[CHIMERA INFO] A custom compilation database search path has been specified. Skipping default searching.
+[CHIMERA VERBOSE-0] > Configuration file : conf.csv
+[CHIMERA VERBOSE-0] > Retrieving compileCommands for /opt/ax_fft/clang-chimera/../src/fourier.cpp
+[CHIMERA VERBOSE-1] => Comparing with File: /opt/ax_fft/src/fft.cpp
+[CHIMERA VERBOSE-1] => Comparing with File: /opt/ax_fft/src/complex.cpp
+[CHIMERA VERBOSE-1] => Comparing with File: /opt/ax_fft/src/fourier.cpp
+[CHIMERA VERBOSE-1] => Successful. Match found!
+[CHIMERA VERBOSE-0] > [ RUN  ] Building MutationTemplate
+[CHIMERA VERBOSE-1] => Setting output directory: /opt/ax_fft/clang-chimera/output/mutants/
+[CHIMERA VERBOSE-1] => Setting target path: /opt/ax_fft/clang-chimera/../src/fourier.cpp
+[CHIMERA VERBOSE-0] > [ DONE ] Building MutationTemplate
+Reserving id:1.Operation: 1
+Reserving id:2.Operation: 1
+Reserving id:3.Operation: 1
+Reserving id:4.Operation: 1
+Reserving id:5.Operation: 1
+Function : radix2DitCooleyTykeyFft
+Operator : VPANOperator
+[CHIMERA VERBOSE-0] > [ RUN  ] Internal tool
+[CHIMERA VERBOSE-1] => Creating output folder /opt/ax_fft/clang-chimera/output/mutants/fourier.cpp/
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ FAIL ]
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ PASS ]
+[CHIMERA VERBOSE-3] ===> [4] Applying mutation in /opt/ax_fft/src/fourier.cpp:56:11
+********************************************************
+Dump binary operation:
+Operation: (float)k / N ==> [/]
+LHS: k
+RHS: N
+I or III type
+it is an externalAssignOp
+External assignment operation: arg =(float)( (float)::vpa_n::VPA(k , OP_0)/ ::vpa_n::VPA(N
+Last value: (float)::vpa_n::VPA(k , OP_0)/ ::vpa_n::VPA(N
+[CHIMERA VERBOSE-3] ===> [4][ RUN  ] Checking mutant
+[CHIMERA VERBOSE-4] ====> Building CompilationDatabase
+[CHIMERA VERBOSE-4] ====> [ RUN  ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> [ DONE ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> Running syntax check
+/opt/ax_fft/clang-chimera/output/mutants/fourier.cpp/temp/fourier.cpp:57:26: fatal error: call to constructor of '::vpa_n::VPA' is ambiguous
+                                arg =(float)( (float)::vpa_n::VPA(k , OP_0)/ ::vpa_n::VPA(N, OP_0)) ;
+                                                     ^            ~~~~~~~~
+/opt/ax_fft/src/./vpa_n.h:33:3: note: candidate constructor
+  VPA(float f, VPAPrecision n_prec = FLOAT) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:39:3: note: candidate constructor
+  VPA(double d, VPAPrecision n_prec = DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:45:3: note: candidate constructor
+  VPA(long double ld, VPAPrecision n_prec = LONG_DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:50:3: note: candidate constructor
+  VPA(VPA vpaObj, VPAPrecision n_prec) {
+  ^
+1 error generated.
+Error while processing /opt/ax_fft/clang-chimera/../src/fourier.cpp.
+[CHIMERA VERBOSE-3] ===> [4][ FAIL ] Checking mutant
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ FAIL ]
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ FAIL ]
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ FAIL ]
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ FAIL ]
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ FAIL ]
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ FAIL ]
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ PASS ]
+[CHIMERA VERBOSE-3] ===> [4] Applying mutation in /opt/ax_fft/src/fourier.cpp:77:27
+********************************************************
+Dump binary operation:
+Operation: t.real + (x[indices[oI]].real * fftCos - x[indices[oI]].imag * fftSin) ==> [+]
+LHS: t.real
+RHS: (x[indices[oI]].real * fftCos - x[indices[oI]].imag * fftSin)
+II type
+it is an externalAssignOp
+External assignment operation: x[indices[eI]].real =(float)( ::vpa_n::VPA(t.real , OP_1) +::vpa_n::VPA( (x[indices[oI]].real * fftCos - x[indices[oI]].imag * fftSin)
+Last value: ::vpa_n::VPA(t.real , OP_1) +::vpa_n::VPA( (x[indices[oI]].real * fftCos - x[indices[oI]].imag * fftSin)
+[CHIMERA VERBOSE-3] ===> [4][ RUN  ] Checking mutant
+[CHIMERA VERBOSE-4] ====> Building CompilationDatabase
+[CHIMERA VERBOSE-4] ====> [ RUN  ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> [ DONE ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> Running syntax check
+/opt/ax_fft/clang-chimera/output/mutants/fourier.cpp/temp/fourier.cpp:58:26: fatal error: call to constructor of '::vpa_n::VPA' is ambiguous
+                                arg =(float)( (float)::vpa_n::VPA(k , OP_0)/ ::vpa_n::VPA(N, OP_0)) ;
+                                                     ^            ~~~~~~~~
+/opt/ax_fft/src/./vpa_n.h:33:3: note: candidate constructor
+  VPA(float f, VPAPrecision n_prec = FLOAT) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:39:3: note: candidate constructor
+  VPA(double d, VPAPrecision n_prec = DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:45:3: note: candidate constructor
+  VPA(long double ld, VPAPrecision n_prec = LONG_DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:50:3: note: candidate constructor
+  VPA(VPA vpaObj, VPAPrecision n_prec) {
+  ^
+1 error generated.
+Error while processing /opt/ax_fft/clang-chimera/../src/fourier.cpp.
+[CHIMERA VERBOSE-3] ===> [4][ FAIL ] Checking mutant
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ PASS ]
+[CHIMERA VERBOSE-3] ===> [4] Applying mutation in /opt/ax_fft/src/fourier.cpp:77:37
+********************************************************
+Dump binary operation:
+Operation: x[indices[oI]].real * fftCos - x[indices[oI]].imag * fftSin ==> [-]
+LHS: x[indices[oI]].real * fftCos
+RHS: x[indices[oI]].imag * fftSin
+I or III type
+it is an externalAssignOp
+Last value: ::vpa_n::VPA(x[indices[oI]].real * fftCos , OP_2)- ::vpa_n::VPA(x[indices[oI]].imag * fftSin
+[CHIMERA VERBOSE-3] ===> [4][ RUN  ] Checking mutant
+[CHIMERA VERBOSE-4] ====> Building CompilationDatabase
+[CHIMERA VERBOSE-4] ====> [ RUN  ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> [ DONE ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> Running syntax check
+/opt/ax_fft/clang-chimera/output/mutants/fourier.cpp/temp/fourier.cpp:59:26: fatal error: call to constructor of '::vpa_n::VPA' is ambiguous
+                                arg =(float)( (float)::vpa_n::VPA(k , OP_0)/ ::vpa_n::VPA(N, OP_0)) ;
+                                                     ^            ~~~~~~~~
+/opt/ax_fft/src/./vpa_n.h:33:3: note: candidate constructor
+  VPA(float f, VPAPrecision n_prec = FLOAT) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:39:3: note: candidate constructor
+  VPA(double d, VPAPrecision n_prec = DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:45:3: note: candidate constructor
+  VPA(long double ld, VPAPrecision n_prec = LONG_DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:50:3: note: candidate constructor
+  VPA(VPA vpaObj, VPAPrecision n_prec) {
+  ^
+1 error generated.
+Error while processing /opt/ax_fft/clang-chimera/../src/fourier.cpp.
+[CHIMERA VERBOSE-3] ===> [4][ FAIL ] Checking mutant
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ PASS ]
+[CHIMERA VERBOSE-3] ===> [4] Applying mutation in /opt/ax_fft/src/fourier.cpp:77:37
+********************************************************
+Dump binary operation:
+Operation: ::vpa_n::VPA(x[indices[oI]].real * fftCos ==> [*]
+LHS: ::vpa_n::VPA(x[indices[oI]].real
+RHS: fftCos
+I or III type
+it is an externalAssignOp
+Last value: ::vpa_n::VPA(::vpa_n::VPA(x[indices[oI]].real , OP_3)* ::vpa_n::VPA(fftCos
+[CHIMERA VERBOSE-3] ===> [4][ RUN  ] Checking mutant
+[CHIMERA VERBOSE-4] ====> Building CompilationDatabase
+[CHIMERA VERBOSE-4] ====> [ RUN  ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> [ DONE ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> Running syntax check
+/opt/ax_fft/clang-chimera/output/mutants/fourier.cpp/temp/fourier.cpp:60:26: fatal error: call to constructor of '::vpa_n::VPA' is ambiguous
+                                arg =(float)( (float)::vpa_n::VPA(k , OP_0)/ ::vpa_n::VPA(N, OP_0)) ;
+                                                     ^            ~~~~~~~~
+/opt/ax_fft/src/./vpa_n.h:33:3: note: candidate constructor
+  VPA(float f, VPAPrecision n_prec = FLOAT) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:39:3: note: candidate constructor
+  VPA(double d, VPAPrecision n_prec = DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:45:3: note: candidate constructor
+  VPA(long double ld, VPAPrecision n_prec = LONG_DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:50:3: note: candidate constructor
+  VPA(VPA vpaObj, VPAPrecision n_prec) {
+  ^
+1 error generated.
+Error while processing /opt/ax_fft/clang-chimera/../src/fourier.cpp.
+[CHIMERA VERBOSE-3] ===> [4][ FAIL ] Checking mutant
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ PASS ]
+[CHIMERA VERBOSE-3] ===> [4] Applying mutation in /opt/ax_fft/src/fourier.cpp:77:68
+********************************************************
+Dump binary operation:
+Operation: ::vpa_n::VPA(x[indices[oI]].imag * fftSin ==> [*]
+LHS: ::vpa_n::VPA(x[indices[oI]].imag
+RHS: fftSin
+I or III type
+it is an externalAssignOp
+Last value: ::vpa_n::VPA(::vpa_n::VPA(x[indices[oI]].imag , OP_4)* ::vpa_n::VPA(fftSin
+[CHIMERA VERBOSE-3] ===> [4][ RUN  ] Checking mutant
+[CHIMERA VERBOSE-4] ====> Building CompilationDatabase
+[CHIMERA VERBOSE-4] ====> [ RUN  ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> [ DONE ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> Running syntax check
+/opt/ax_fft/clang-chimera/output/mutants/fourier.cpp/temp/fourier.cpp:61:26: fatal error: call to constructor of '::vpa_n::VPA' is ambiguous
+                                arg =(float)( (float)::vpa_n::VPA(k , OP_0)/ ::vpa_n::VPA(N, OP_0)) ;
+                                                     ^            ~~~~~~~~
+/opt/ax_fft/src/./vpa_n.h:33:3: note: candidate constructor
+  VPA(float f, VPAPrecision n_prec = FLOAT) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:39:3: note: candidate constructor
+  VPA(double d, VPAPrecision n_prec = DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:45:3: note: candidate constructor
+  VPA(long double ld, VPAPrecision n_prec = LONG_DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:50:3: note: candidate constructor
+  VPA(VPA vpaObj, VPAPrecision n_prec) {
+  ^
+1 error generated.
+Error while processing /opt/ax_fft/clang-chimera/../src/fourier.cpp.
+[CHIMERA VERBOSE-3] ===> [4][ FAIL ] Checking mutant
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ FAIL ]
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ PASS ]
+[CHIMERA VERBOSE-3] ===> [4] Applying mutation in /opt/ax_fft/src/fourier.cpp:78:39
+********************************************************
+Dump binary operation:
+Operation: t.imag + (x[indices[oI]].imag * fftCos + x[indices[oI]].real * fftSin) ==> [+]
+LHS: t.imag
+RHS: (x[indices[oI]].imag * fftCos + x[indices[oI]].real * fftSin)
+II type
+it is an externalAssignOp
+External assignment operation: x[indices[eI]].imag =(float)( ::vpa_n::VPA(t.imag , OP_5) +::vpa_n::VPA( (x[indices[oI]].imag * fftCos + x[indices[oI]].real * fftSin)
+Last value: ::vpa_n::VPA(t.imag , OP_5) +::vpa_n::VPA( (x[indices[oI]].imag * fftCos + x[indices[oI]].real * fftSin)
+[CHIMERA VERBOSE-3] ===> [4][ RUN  ] Checking mutant
+[CHIMERA VERBOSE-4] ====> Building CompilationDatabase
+[CHIMERA VERBOSE-4] ====> [ RUN  ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> [ DONE ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> Running syntax check
+/opt/ax_fft/clang-chimera/output/mutants/fourier.cpp/temp/fourier.cpp:62:26: fatal error: call to constructor of '::vpa_n::VPA' is ambiguous
+                                arg =(float)( (float)::vpa_n::VPA(k , OP_0)/ ::vpa_n::VPA(N, OP_0)) ;
+                                                     ^            ~~~~~~~~
+/opt/ax_fft/src/./vpa_n.h:33:3: note: candidate constructor
+  VPA(float f, VPAPrecision n_prec = FLOAT) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:39:3: note: candidate constructor
+  VPA(double d, VPAPrecision n_prec = DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:45:3: note: candidate constructor
+  VPA(long double ld, VPAPrecision n_prec = LONG_DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:50:3: note: candidate constructor
+  VPA(VPA vpaObj, VPAPrecision n_prec) {
+  ^
+1 error generated.
+Error while processing /opt/ax_fft/clang-chimera/../src/fourier.cpp.
+[CHIMERA VERBOSE-3] ===> [4][ FAIL ] Checking mutant
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ PASS ]
+[CHIMERA VERBOSE-3] ===> [4] Applying mutation in /opt/ax_fft/src/fourier.cpp:78:49
+********************************************************
+Dump binary operation:
+Operation: x[indices[oI]].imag * fftCos + x[indices[oI]].real * fftSin ==> [+]
+LHS: x[indices[oI]].imag * fftCos
+RHS: x[indices[oI]].real * fftSin
+I or III type
+it is an externalAssignOp
+Last value: ::vpa_n::VPA(x[indices[oI]].imag * fftCos , OP_6)+ ::vpa_n::VPA(x[indices[oI]].real * fftSin
+[CHIMERA VERBOSE-3] ===> [4][ RUN  ] Checking mutant
+[CHIMERA VERBOSE-4] ====> Building CompilationDatabase
+[CHIMERA VERBOSE-4] ====> [ RUN  ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> [ DONE ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> Running syntax check
+/opt/ax_fft/clang-chimera/output/mutants/fourier.cpp/temp/fourier.cpp:63:26: fatal error: call to constructor of '::vpa_n::VPA' is ambiguous
+                                arg =(float)( (float)::vpa_n::VPA(k , OP_0)/ ::vpa_n::VPA(N, OP_0)) ;
+                                                     ^            ~~~~~~~~
+/opt/ax_fft/src/./vpa_n.h:33:3: note: candidate constructor
+  VPA(float f, VPAPrecision n_prec = FLOAT) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:39:3: note: candidate constructor
+  VPA(double d, VPAPrecision n_prec = DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:45:3: note: candidate constructor
+  VPA(long double ld, VPAPrecision n_prec = LONG_DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:50:3: note: candidate constructor
+  VPA(VPA vpaObj, VPAPrecision n_prec) {
+  ^
+1 error generated.
+Error while processing /opt/ax_fft/clang-chimera/../src/fourier.cpp.
+[CHIMERA VERBOSE-3] ===> [4][ FAIL ] Checking mutant
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ PASS ]
+[CHIMERA VERBOSE-3] ===> [4] Applying mutation in /opt/ax_fft/src/fourier.cpp:78:49
+********************************************************
+Dump binary operation:
+Operation: ::vpa_n::VPA(x[indices[oI]].imag * fftCos ==> [*]
+LHS: ::vpa_n::VPA(x[indices[oI]].imag
+RHS: fftCos
+I or III type
+it is an externalAssignOp
+Last value: ::vpa_n::VPA(::vpa_n::VPA(x[indices[oI]].imag , OP_7)* ::vpa_n::VPA(fftCos
+[CHIMERA VERBOSE-3] ===> [4][ RUN  ] Checking mutant
+[CHIMERA VERBOSE-4] ====> Building CompilationDatabase
+[CHIMERA VERBOSE-4] ====> [ RUN  ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> [ DONE ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> Running syntax check
+/opt/ax_fft/clang-chimera/output/mutants/fourier.cpp/temp/fourier.cpp:64:26: fatal error: call to constructor of '::vpa_n::VPA' is ambiguous
+                                arg =(float)( (float)::vpa_n::VPA(k , OP_0)/ ::vpa_n::VPA(N, OP_0)) ;
+                                                     ^            ~~~~~~~~
+/opt/ax_fft/src/./vpa_n.h:33:3: note: candidate constructor
+  VPA(float f, VPAPrecision n_prec = FLOAT) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:39:3: note: candidate constructor
+  VPA(double d, VPAPrecision n_prec = DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:45:3: note: candidate constructor
+  VPA(long double ld, VPAPrecision n_prec = LONG_DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:50:3: note: candidate constructor
+  VPA(VPA vpaObj, VPAPrecision n_prec) {
+  ^
+1 error generated.
+Error while processing /opt/ax_fft/clang-chimera/../src/fourier.cpp.
+[CHIMERA VERBOSE-3] ===> [4][ FAIL ] Checking mutant
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ PASS ]
+[CHIMERA VERBOSE-3] ===> [4] Applying mutation in /opt/ax_fft/src/fourier.cpp:78:80
+********************************************************
+Dump binary operation:
+Operation: ::vpa_n::VPA(x[indices[oI]].real * fftSin ==> [*]
+LHS: ::vpa_n::VPA(x[indices[oI]].real
+RHS: fftSin
+I or III type
+it is an externalAssignOp
+Last value: ::vpa_n::VPA(::vpa_n::VPA(x[indices[oI]].real , OP_8)* ::vpa_n::VPA(fftSin
+[CHIMERA VERBOSE-3] ===> [4][ RUN  ] Checking mutant
+[CHIMERA VERBOSE-4] ====> Building CompilationDatabase
+[CHIMERA VERBOSE-4] ====> [ RUN  ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> [ DONE ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> Running syntax check
+/opt/ax_fft/clang-chimera/output/mutants/fourier.cpp/temp/fourier.cpp:65:26: fatal error: call to constructor of '::vpa_n::VPA' is ambiguous
+                                arg =(float)( (float)::vpa_n::VPA(k , OP_0)/ ::vpa_n::VPA(N, OP_0)) ;
+                                                     ^            ~~~~~~~~
+/opt/ax_fft/src/./vpa_n.h:33:3: note: candidate constructor
+  VPA(float f, VPAPrecision n_prec = FLOAT) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:39:3: note: candidate constructor
+  VPA(double d, VPAPrecision n_prec = DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:45:3: note: candidate constructor
+  VPA(long double ld, VPAPrecision n_prec = LONG_DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:50:3: note: candidate constructor
+  VPA(VPA vpaObj, VPAPrecision n_prec) {
+  ^
+1 error generated.
+Error while processing /opt/ax_fft/clang-chimera/../src/fourier.cpp.
+[CHIMERA VERBOSE-3] ===> [4][ FAIL ] Checking mutant
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ FAIL ]
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ PASS ]
+[CHIMERA VERBOSE-3] ===> [4] Applying mutation in /opt/ax_fft/src/fourier.cpp:80:39
+********************************************************
+Dump binary operation:
+Operation: t.real - (x[indices[oI]].real * fftCos - x[indices[oI]].imag * fftSin) ==> [-]
+LHS: t.real
+RHS: (x[indices[oI]].real * fftCos - x[indices[oI]].imag * fftSin)
+II type
+it is an externalAssignOp
+External assignment operation: x[indices[oI]].real =(float)( ::vpa_n::VPA(t.real , OP_9) -::vpa_n::VPA( (x[indices[oI]].real * fftCos - x[indices[oI]].imag * fftSin)
+Last value: ::vpa_n::VPA(t.real , OP_9) -::vpa_n::VPA( (x[indices[oI]].real * fftCos - x[indices[oI]].imag * fftSin)
+[CHIMERA VERBOSE-3] ===> [4][ RUN  ] Checking mutant
+[CHIMERA VERBOSE-4] ====> Building CompilationDatabase
+[CHIMERA VERBOSE-4] ====> [ RUN  ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> [ DONE ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> Running syntax check
+/opt/ax_fft/clang-chimera/output/mutants/fourier.cpp/temp/fourier.cpp:66:26: fatal error: call to constructor of '::vpa_n::VPA' is ambiguous
+                                arg =(float)( (float)::vpa_n::VPA(k , OP_0)/ ::vpa_n::VPA(N, OP_0)) ;
+                                                     ^            ~~~~~~~~
+/opt/ax_fft/src/./vpa_n.h:33:3: note: candidate constructor
+  VPA(float f, VPAPrecision n_prec = FLOAT) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:39:3: note: candidate constructor
+  VPA(double d, VPAPrecision n_prec = DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:45:3: note: candidate constructor
+  VPA(long double ld, VPAPrecision n_prec = LONG_DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:50:3: note: candidate constructor
+  VPA(VPA vpaObj, VPAPrecision n_prec) {
+  ^
+1 error generated.
+Error while processing /opt/ax_fft/clang-chimera/../src/fourier.cpp.
+[CHIMERA VERBOSE-3] ===> [4][ FAIL ] Checking mutant
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ PASS ]
+[CHIMERA VERBOSE-3] ===> [4] Applying mutation in /opt/ax_fft/src/fourier.cpp:80:49
+********************************************************
+Dump binary operation:
+Operation: x[indices[oI]].real * fftCos - x[indices[oI]].imag * fftSin ==> [-]
+LHS: x[indices[oI]].real * fftCos
+RHS: x[indices[oI]].imag * fftSin
+I or III type
+it is an externalAssignOp
+Last value: ::vpa_n::VPA(x[indices[oI]].real * fftCos , OP_10)- ::vpa_n::VPA(x[indices[oI]].imag * fftSin
+[CHIMERA VERBOSE-3] ===> [4][ RUN  ] Checking mutant
+[CHIMERA VERBOSE-4] ====> Building CompilationDatabase
+[CHIMERA VERBOSE-4] ====> [ RUN  ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> [ DONE ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> Running syntax check
+/opt/ax_fft/clang-chimera/output/mutants/fourier.cpp/temp/fourier.cpp:67:26: fatal error: call to constructor of '::vpa_n::VPA' is ambiguous
+                                arg =(float)( (float)::vpa_n::VPA(k , OP_0)/ ::vpa_n::VPA(N, OP_0)) ;
+                                                     ^            ~~~~~~~~
+/opt/ax_fft/src/./vpa_n.h:33:3: note: candidate constructor
+  VPA(float f, VPAPrecision n_prec = FLOAT) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:39:3: note: candidate constructor
+  VPA(double d, VPAPrecision n_prec = DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:45:3: note: candidate constructor
+  VPA(long double ld, VPAPrecision n_prec = LONG_DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:50:3: note: candidate constructor
+  VPA(VPA vpaObj, VPAPrecision n_prec) {
+  ^
+1 error generated.
+Error while processing /opt/ax_fft/clang-chimera/../src/fourier.cpp.
+[CHIMERA VERBOSE-3] ===> [4][ FAIL ] Checking mutant
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ PASS ]
+[CHIMERA VERBOSE-3] ===> [4] Applying mutation in /opt/ax_fft/src/fourier.cpp:80:49
+********************************************************
+Dump binary operation:
+Operation: ::vpa_n::VPA(x[indices[oI]].real * fftCos ==> [*]
+LHS: ::vpa_n::VPA(x[indices[oI]].real
+RHS: fftCos
+I or III type
+it is an externalAssignOp
+Last value: ::vpa_n::VPA(::vpa_n::VPA(x[indices[oI]].real , OP_11)* ::vpa_n::VPA(fftCos
+[CHIMERA VERBOSE-3] ===> [4][ RUN  ] Checking mutant
+[CHIMERA VERBOSE-4] ====> Building CompilationDatabase
+[CHIMERA VERBOSE-4] ====> [ RUN  ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> [ DONE ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> Running syntax check
+/opt/ax_fft/clang-chimera/output/mutants/fourier.cpp/temp/fourier.cpp:68:26: fatal error: call to constructor of '::vpa_n::VPA' is ambiguous
+                                arg =(float)( (float)::vpa_n::VPA(k , OP_0)/ ::vpa_n::VPA(N, OP_0)) ;
+                                                     ^            ~~~~~~~~
+/opt/ax_fft/src/./vpa_n.h:33:3: note: candidate constructor
+  VPA(float f, VPAPrecision n_prec = FLOAT) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:39:3: note: candidate constructor
+  VPA(double d, VPAPrecision n_prec = DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:45:3: note: candidate constructor
+  VPA(long double ld, VPAPrecision n_prec = LONG_DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:50:3: note: candidate constructor
+  VPA(VPA vpaObj, VPAPrecision n_prec) {
+  ^
+1 error generated.
+Error while processing /opt/ax_fft/clang-chimera/../src/fourier.cpp.
+[CHIMERA VERBOSE-3] ===> [4][ FAIL ] Checking mutant
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ PASS ]
+[CHIMERA VERBOSE-3] ===> [4] Applying mutation in /opt/ax_fft/src/fourier.cpp:80:80
+********************************************************
+Dump binary operation:
+Operation: ::vpa_n::VPA(x[indices[oI]].imag * fftSin ==> [*]
+LHS: ::vpa_n::VPA(x[indices[oI]].imag
+RHS: fftSin
+I or III type
+it is an externalAssignOp
+Last value: ::vpa_n::VPA(::vpa_n::VPA(x[indices[oI]].imag , OP_12)* ::vpa_n::VPA(fftSin
+[CHIMERA VERBOSE-3] ===> [4][ RUN  ] Checking mutant
+[CHIMERA VERBOSE-4] ====> Building CompilationDatabase
+[CHIMERA VERBOSE-4] ====> [ RUN  ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> [ DONE ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> Running syntax check
+/opt/ax_fft/clang-chimera/output/mutants/fourier.cpp/temp/fourier.cpp:69:26: fatal error: call to constructor of '::vpa_n::VPA' is ambiguous
+                                arg =(float)( (float)::vpa_n::VPA(k , OP_0)/ ::vpa_n::VPA(N, OP_0)) ;
+                                                     ^            ~~~~~~~~
+/opt/ax_fft/src/./vpa_n.h:33:3: note: candidate constructor
+  VPA(float f, VPAPrecision n_prec = FLOAT) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:39:3: note: candidate constructor
+  VPA(double d, VPAPrecision n_prec = DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:45:3: note: candidate constructor
+  VPA(long double ld, VPAPrecision n_prec = LONG_DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:50:3: note: candidate constructor
+  VPA(VPA vpaObj, VPAPrecision n_prec) {
+  ^
+1 error generated.
+Error while processing /opt/ax_fft/clang-chimera/../src/fourier.cpp.
+[CHIMERA VERBOSE-3] ===> [4][ FAIL ] Checking mutant
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ FAIL ]
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ PASS ]
+[CHIMERA VERBOSE-3] ===> [4] Applying mutation in /opt/ax_fft/src/fourier.cpp:81:39
+********************************************************
+Dump binary operation:
+Operation: t.imag - (x[indices[oI]].imag * fftCos + x[indices[oI]].real * fftSin) ==> [-]
+LHS: t.imag
+RHS: (x[indices[oI]].imag * fftCos + x[indices[oI]].real * fftSin)
+II type
+it is an externalAssignOp
+External assignment operation: x[indices[oI]].imag =(float)( ::vpa_n::VPA(t.imag , OP_13) -::vpa_n::VPA( (x[indices[oI]].imag * fftCos + x[indices[oI]].real * fftSin)
+Last value: ::vpa_n::VPA(t.imag , OP_13) -::vpa_n::VPA( (x[indices[oI]].imag * fftCos + x[indices[oI]].real * fftSin)
+[CHIMERA VERBOSE-3] ===> [4][ RUN  ] Checking mutant
+[CHIMERA VERBOSE-4] ====> Building CompilationDatabase
+[CHIMERA VERBOSE-4] ====> [ RUN  ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> [ DONE ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> Running syntax check
+/opt/ax_fft/clang-chimera/output/mutants/fourier.cpp/temp/fourier.cpp:70:26: fatal error: call to constructor of '::vpa_n::VPA' is ambiguous
+                                arg =(float)( (float)::vpa_n::VPA(k , OP_0)/ ::vpa_n::VPA(N, OP_0)) ;
+                                                     ^            ~~~~~~~~
+/opt/ax_fft/src/./vpa_n.h:33:3: note: candidate constructor
+  VPA(float f, VPAPrecision n_prec = FLOAT) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:39:3: note: candidate constructor
+  VPA(double d, VPAPrecision n_prec = DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:45:3: note: candidate constructor
+  VPA(long double ld, VPAPrecision n_prec = LONG_DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:50:3: note: candidate constructor
+  VPA(VPA vpaObj, VPAPrecision n_prec) {
+  ^
+1 error generated.
+Error while processing /opt/ax_fft/clang-chimera/../src/fourier.cpp.
+[CHIMERA VERBOSE-3] ===> [4][ FAIL ] Checking mutant
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ PASS ]
+[CHIMERA VERBOSE-3] ===> [4] Applying mutation in /opt/ax_fft/src/fourier.cpp:81:49
+********************************************************
+Dump binary operation:
+Operation: x[indices[oI]].imag * fftCos + x[indices[oI]].real * fftSin ==> [+]
+LHS: x[indices[oI]].imag * fftCos
+RHS: x[indices[oI]].real * fftSin
+I or III type
+it is an externalAssignOp
+Last value: ::vpa_n::VPA(x[indices[oI]].imag * fftCos , OP_14)+ ::vpa_n::VPA(x[indices[oI]].real * fftSin
+[CHIMERA VERBOSE-3] ===> [4][ RUN  ] Checking mutant
+[CHIMERA VERBOSE-4] ====> Building CompilationDatabase
+[CHIMERA VERBOSE-4] ====> [ RUN  ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> [ DONE ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> Running syntax check
+/opt/ax_fft/clang-chimera/output/mutants/fourier.cpp/temp/fourier.cpp:71:26: fatal error: call to constructor of '::vpa_n::VPA' is ambiguous
+                                arg =(float)( (float)::vpa_n::VPA(k , OP_0)/ ::vpa_n::VPA(N, OP_0)) ;
+                                                     ^            ~~~~~~~~
+/opt/ax_fft/src/./vpa_n.h:33:3: note: candidate constructor
+  VPA(float f, VPAPrecision n_prec = FLOAT) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:39:3: note: candidate constructor
+  VPA(double d, VPAPrecision n_prec = DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:45:3: note: candidate constructor
+  VPA(long double ld, VPAPrecision n_prec = LONG_DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:50:3: note: candidate constructor
+  VPA(VPA vpaObj, VPAPrecision n_prec) {
+  ^
+1 error generated.
+Error while processing /opt/ax_fft/clang-chimera/../src/fourier.cpp.
+[CHIMERA VERBOSE-3] ===> [4][ FAIL ] Checking mutant
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ PASS ]
+[CHIMERA VERBOSE-3] ===> [4] Applying mutation in /opt/ax_fft/src/fourier.cpp:81:49
+********************************************************
+Dump binary operation:
+Operation: ::vpa_n::VPA(x[indices[oI]].imag * fftCos ==> [*]
+LHS: ::vpa_n::VPA(x[indices[oI]].imag
+RHS: fftCos
+I or III type
+it is an externalAssignOp
+Last value: ::vpa_n::VPA(::vpa_n::VPA(x[indices[oI]].imag , OP_15)* ::vpa_n::VPA(fftCos
+[CHIMERA VERBOSE-3] ===> [4][ RUN  ] Checking mutant
+[CHIMERA VERBOSE-4] ====> Building CompilationDatabase
+[CHIMERA VERBOSE-4] ====> [ RUN  ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> [ DONE ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> Running syntax check
+/opt/ax_fft/clang-chimera/output/mutants/fourier.cpp/temp/fourier.cpp:72:26: fatal error: call to constructor of '::vpa_n::VPA' is ambiguous
+                                arg =(float)( (float)::vpa_n::VPA(k , OP_0)/ ::vpa_n::VPA(N, OP_0)) ;
+                                                     ^            ~~~~~~~~
+/opt/ax_fft/src/./vpa_n.h:33:3: note: candidate constructor
+  VPA(float f, VPAPrecision n_prec = FLOAT) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:39:3: note: candidate constructor
+  VPA(double d, VPAPrecision n_prec = DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:45:3: note: candidate constructor
+  VPA(long double ld, VPAPrecision n_prec = LONG_DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:50:3: note: candidate constructor
+  VPA(VPA vpaObj, VPAPrecision n_prec) {
+  ^
+1 error generated.
+Error while processing /opt/ax_fft/clang-chimera/../src/fourier.cpp.
+[CHIMERA VERBOSE-3] ===> [4][ FAIL ] Checking mutant
+[CHIMERA VERBOSE-1] => Coarse grain matching from mutator_vpa_n_operation
+[CHIMERA VERBOSE-2] ==> Fine grain matching [ PASS ]
+[CHIMERA VERBOSE-3] ===> [4] Applying mutation in /opt/ax_fft/src/fourier.cpp:81:80
+********************************************************
+Dump binary operation:
+Operation: ::vpa_n::VPA(x[indices[oI]].real * fftSin ==> [*]
+LHS: ::vpa_n::VPA(x[indices[oI]].real
+RHS: fftSin
+I or III type
+it is an externalAssignOp
+Last value: ::vpa_n::VPA(::vpa_n::VPA(x[indices[oI]].real , OP_16)* ::vpa_n::VPA(fftSin
+[CHIMERA VERBOSE-3] ===> [4][ RUN  ] Checking mutant
+[CHIMERA VERBOSE-4] ====> Building CompilationDatabase
+[CHIMERA VERBOSE-4] ====> [ RUN  ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> [ DONE ] Adapting compile command
+[CHIMERA VERBOSE-4] ====> Running syntax check
+/opt/ax_fft/clang-chimera/output/mutants/fourier.cpp/temp/fourier.cpp:73:26: fatal error: call to constructor of '::vpa_n::VPA' is ambiguous
+                                arg =(float)( (float)::vpa_n::VPA(k , OP_0)/ ::vpa_n::VPA(N, OP_0)) ;
+                                                     ^            ~~~~~~~~
+/opt/ax_fft/src/./vpa_n.h:33:3: note: candidate constructor
+  VPA(float f, VPAPrecision n_prec = FLOAT) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:39:3: note: candidate constructor
+  VPA(double d, VPAPrecision n_prec = DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:45:3: note: candidate constructor
+  VPA(long double ld, VPAPrecision n_prec = LONG_DOUBLE) {
+  ^
+/opt/ax_fft/src/./vpa_n.h:50:3: note: candidate constructor
+  VPA(VPA vpaObj, VPAPrecision n_prec) {
+  ^
+1 error generated.
+Error while processing /opt/ax_fft/clang-chimera/../src/fourier.cpp.
+[CHIMERA VERBOSE-3] ===> [4][ FAIL ] Checking mutant
+Id: OP_0; Op1: (float)k;		 Op2: N
+Id: OP_1; Op1: t.real;		 Op2: x[indices[oI]].real*fftCos-x[indices[oI]].imag*fftSin
+Id: OP_2; Op1: x[indices[oI]].real*fftCos;		 Op2: x[indices[oI]].imag*fftSin
+Id: OP_3; Op1: x[indices[oI]].real;		 Op2: fftCos
+Id: OP_4; Op1: x[indices[oI]].imag;		 Op2: fftSin
+Id: OP_5; Op1: t.imag;		 Op2: x[indices[oI]].imag*fftCos+x[indices[oI]].real*fftSin
+Id: OP_6; Op1: x[indices[oI]].imag*fftCos;		 Op2: x[indices[oI]].real*fftSin
+Id: OP_7; Op1: x[indices[oI]].imag;		 Op2: fftCos
+Id: OP_8; Op1: x[indices[oI]].real;		 Op2: fftSin
+Id: OP_9; Op1: t.real;		 Op2: x[indices[oI]].real*fftCos-x[indices[oI]].imag*fftSin
+Id: OP_10; Op1: x[indices[oI]].real*fftCos;		 Op2: x[indices[oI]].imag*fftSin
+Id: OP_11; Op1: x[indices[oI]].real;		 Op2: fftCos
+Id: OP_12; Op1: x[indices[oI]].imag;		 Op2: fftSin
+Id: OP_13; Op1: t.imag;		 Op2: x[indices[oI]].imag*fftCos+x[indices[oI]].real*fftSin
+Id: OP_14; Op1: x[indices[oI]].imag*fftCos;		 Op2: x[indices[oI]].real*fftSin
+Id: OP_15; Op1: x[indices[oI]].imag;		 Op2: fftCos
+Id: OP_16; Op1: x[indices[oI]].real;		 Op2: fftSin
+OP_1 <--> OP_2;	Operand/operation: x[indices[oI]].real*fftCos-x[indices[oI]].imag*fftSin IS Operation: OP_2
+OP_2 <--> OP_3;	Operand/operation: x[indices[oI]].real*fftCos IS Operation: OP_3
+OP_2 <--> OP_4;	Operand/operation: x[indices[oI]].imag*fftSin IS Operation: OP_4
+OP_5 <--> OP_6;	Operand/operation: x[indices[oI]].imag*fftCos+x[indices[oI]].real*fftSin IS Operation: OP_6
+OP_6 <--> OP_7;	Operand/operation: x[indices[oI]].imag*fftCos IS Operation: OP_7
+OP_6 <--> OP_8;	Operand/operation: x[indices[oI]].real*fftSin IS Operation: OP_8
+OP_9 <--> OP_10;	Operand/operation: x[indices[oI]].real*fftCos-x[indices[oI]].imag*fftSin IS Operation: OP_10
+OP_10 <--> OP_11;	Operand/operation: x[indices[oI]].real*fftCos IS Operation: OP_11
+OP_10 <--> OP_12;	Operand/operation: x[indices[oI]].imag*fftSin IS Operation: OP_12
+OP_13 <--> OP_14;	Operand/operation: x[indices[oI]].imag*fftCos+x[indices[oI]].real*fftSin IS Operation: OP_14
+OP_14 <--> OP_15;	Operand/operation: x[indices[oI]].imag*fftCos IS Operation: OP_15
+OP_14 <--> OP_16;	Operand/operation: x[indices[oI]].real*fftSin IS Operation: OP_16
+LLVM ERROR: IO failure on output stream.

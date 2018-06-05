@@ -1,0 +1,23 @@
+[
+{
+  "directory": "/opt/ax_fft/src/build",
+  "command": "/usr/bin/clang++    -I/usr/include/c++/6.3.1 -I/opt/ax_fft/src/.   -Wfatal-errors -fno-use-cxa-atexit -fPIC -g   -std=gnu++11 -o CMakeFiles/fft.dir/complex.cpp.o -c /opt/ax_fft/src/complex.cpp",
+  "file": "/opt/ax_fft/src/complex.cpp"
+},
+{
+  "directory": "/opt/ax_fft/bellerophon",
+  "command": "/usr/bin/clang++    -I/usr/include/c++/6.3.1 -I/opt/ax_fft/src/.   -Wfatal-errors -fno-use-cxa-atexit -fPIC -g   -std=gnu++11 -o CMakeFiles/fft.dir/fourier.cpp.o -c /opt/ax_fft/clang-chimera/output/mutants/fourier.cpp/4/fourier.cpp",
+  "file": "/opt/ax_fft/src/fourier.cpp"
+},
+{
+  "directory": "/opt/ax_fft/src/build",
+  "directory": "/opt/ax_fft/bellerophon",
+  "command": "/usr/bin/clang++    -I/usr/include/c++/6.3.1 -I/opt/ax_fft/src/.   -Wfatal-errors -fno-use-cxa-atexit -fPIC -g   -std=gnu++11 -o CMakeFiles/fft.dir/fft.cpp.o -c /opt/ax_fft/src/fft.cpp",
+  "file": "/opt/ax_fft/src/fft.cpp"
+},
+{
+	"directory": "/opt/ax_fft/bellerophon",
+	"command": "/usr/bin/clang++ -I/opt/ax_fft/src -Wfatal-errors -fno-use-cxa-atexit -fPIC -g   -std=gnu++11 -c /opt/ax_fft/bellerophon/bellerophon_functions.cpp",
+	"file": "/opt/ax_fft/bellelrophon/bellerophon_functions.cpp"
+}
+]
