@@ -38,3 +38,4 @@ build/
 
 #script
 dockerScript.sh
+dockerCleanup.sh
