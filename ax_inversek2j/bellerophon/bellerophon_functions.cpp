@@ -10,13 +10,13 @@ bool vpa_n::VPA::UPCASTING = false;
 #include "inversek2j.hpp" // function definition
 
 extern "C" double BELLERO_getError() {    
-    const char* inputPath = "/opt/inversek2j/test.data/input/theta_1000K.data";
-    const char* outputPath = "/opt/inversek2j/src/build/output.txt";
-    ::std::ifstream oracle ( "/opt/inversek2j/src/build/oracle.txt" );
+    const char* inputPath = "/opt/ax_inversek2j/test.data/input/theta_1000K.data";
+    const char* outputPath = "/opt/ax_inversek2j/src/build/output.txt";
+    ::std::ifstream oracle ( "/opt/ax_inversek2j/src/build/oracle.txt" );
 	
     doWork(inputPath, outputPath); 
 
-    ::std::ifstream axc ( "/opt/inversek2j/src/build/output.txt" );
+    ::std::ifstream axc ( "/opt/ax_inversek2j/src/build/output.txt" );
     if ( !oracle.good() ) {
         ::std::cerr << "The oracle does not exist!\n";
         exit ( 1 );

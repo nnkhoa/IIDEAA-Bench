@@ -29,17 +29,16 @@ extern "C" double BELLERO_getError(){
 	double WCE = 0.0;
 	double tmp;
 
-	double greal, gima;
-	double axreal, axima;
-	double diffreal, diffimg;
+	double gResult;
+	double axResult;
+	double diff;
 
 	while(!oracle.eof() && !axc.eof()){
-		oracle >> greal >> gima;
-		axc >> axreal >> axima;
-		diffreal = greal - axima;
-		diffimg = gima = axima;
-
-		tmp = sqrt((diffreal*diffreal) + (diffimg*diffimg));
+		oracle >> gResult;
+		axc >> axResult;
+		
+		diff = gResult = axResult;
+		tmp = sqrt(diff*diff);
 
 		if (tmp > WCE) 
 			WCE = tmp;

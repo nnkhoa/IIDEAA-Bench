@@ -36,8 +36,8 @@ extern "C" double BELLERO_getError(){
 	while(!oracle.eof() && !axc.eof()){
 		oracle >> greal >> gima;
 		axc >> axreal >> axima;
-		diffreal = greal - axima;
-		diffimg = gima = axima;
+		diffreal = greal - axreal;
+		diffimg = gima - axima;
 
 		tmp = sqrt((diffreal*diffreal) + (diffimg*diffimg));
 
