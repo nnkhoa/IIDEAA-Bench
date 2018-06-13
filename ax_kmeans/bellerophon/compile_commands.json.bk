@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/opt/ax_kmeans/src/build",
+  "command": "/usr/bin/clang++    -I/opt/ax_kmeans/src/.    -fno-use-cxa-atexit -fPIC -g   -std=gnu++11 -o CMakeFiles/kmeans.dir/kmeans.cpp.o -c /opt/ax_kmeans/src/kmeans.cpp",
+  "file": "/opt/ax_kmeans/src/kmeans.cpp"
+},
+{
+  "directory": "/opt/ax_kmeans/bellerophon",
+  "command": "/usr/bin/clang++    -I/opt/ax_kmeans/src/.    -fno-use-cxa-atexit -fPIC -g   -std=gnu++11 -o CMakeFiles/kmeans.dir/distance.cpp.o -c /opt/ax_kmeans/clang-chimera/output/mutants/distance.cpp/4/distance.cpp",
+  "file": "/opt/ax_kmeans/src/distance.cpp"
+},
+{
+  "directory": "/opt/ax_kmeans/src/build",
+  "command": "/usr/bin/clang++    -I/opt/ax_kmeans/src/.    -fno-use-cxa-atexit -fPIC -g   -std=gnu++11 -o CMakeFiles/kmeans.dir/segmentation.cpp.o -c /opt/ax_kmeans/src/segmentation.cpp",
+  "file": "/opt/ax_kmeans/src/segmentation.cpp"
+},
+{
+  "directory": "/opt/ax_kmeans/src/build",
+  "command": "/usr/bin/clang++    -I/opt/ax_kmeans/src/.    -fno-use-cxa-atexit -fPIC -g   -std=gnu++11 -o CMakeFiles/kmeans.dir/rgbimage.cpp.o -c /opt/ax_kmeans/src/rgbimage.cpp",
+  "file": "/opt/ax_kmeans/src/rgbimage.cpp"
+},
+{
+  "directory": "/opt/ax_kmeans/bellerophon",
+  "commamd": "/usr/bin/clang++ -I/opt/ax_kmeans/src/. -Wfatal-errors -fno-use-cxa-atexit -fPIC -g -std=gnu++11 -c /opt/ax_kmeans/bellerophon/bellerophon_functions.cpp",
+  "file": "/opt/ax_kmeans/bellerophon/bellerophon_functions.cpp"
+}
+]
