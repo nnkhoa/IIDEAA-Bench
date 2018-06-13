@@ -30,33 +30,33 @@
 
 
 //Precision to use for calculations
-#define fptype float
+//#define float float
 
 #define NUM_RUNS 1
 
 typedef struct OptionData_ {
-        fptype s;          // spot price
-        fptype strike;     // strike price
-        fptype r;          // risk-free interest rate
-        fptype divq;       // dividend rate
-        fptype v;          // volatility
-        fptype t;          // time to maturity or option expiration in years 
+        float s;          // spot price
+        float strike;     // strike price
+        float r;          // risk-free interest rate
+        float divq;       // dividend rate
+        float v;          // volatility
+        float t;          // time to maturity or option expiration in years 
                            //     (1yr = 1.0, 6mos = 0.5, 3mos = 0.25, ..., etc)  
         char OptionType;   // Option type.  "P"=PUT, "C"=CALL
-        fptype divs;       // dividend vals (not used in this test)
-        fptype DGrefval;   // DerivaGem Reference Value
+        float divs;       // dividend vals (not used in this test)
+        float DGrefval;   // DerivaGem Reference Value
 } OptionData;
 
 OptionData *data;
-fptype *prices;
+float *prices;
 int numOptions;
 
 int    * otype;
-fptype * sptprice;
-fptype * strike;
-fptype * rate;
-fptype * volatility;
-fptype * otime;
+float * sptprice;
+float * strike;
+float * rate;
+float * volatility;
+float * otime;
 int numError = 0;
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -67,19 +67,19 @@ int numError = 0;
 // See Hull, Section 11.8, P.243-244
 #define inv_sqrt_2xPI 0.39894228040143270286
 
-fptype CNDF ( fptype InputX ) 
+float CNDF ( float InputX ) 
 {
     int sign;
 
-    fptype OutputX;
-    fptype xInput;
-    fptype xNPrimeofX;
-    fptype expValues;
-    fptype xK2;
-    fptype xK2_2, xK2_3;
-    fptype xK2_4, xK2_5;
-    fptype xLocal, xLocal_1;
-    fptype xLocal_2, xLocal_3;
+    float OutputX;
+    float xInput;
+    float xNPrimeofX;
+    float expValues;
+    float xK2;
+    float xK2_2, xK2_3;
+    float xK2_4, xK2_5;
+    float xLocal, xLocal_1;
+    float xLocal_2, xLocal_3;
 
     // Check for negative value of InputX
     if (InputX < 0.0) {
@@ -136,33 +136,33 @@ fptype CNDF ( fptype InputX )
 //////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////
-fptype BlkSchlsEqEuroNoDiv( fptype sptprice,
-                            fptype strike, fptype rate, fptype volatility,
-                            fptype time, int otype, float timet, fptype* N1, fptype* N2)
+float BlkSchlsEqEuroNoDiv( float sptprice,
+                            float strike, float rate, float volatility,
+                            float time, int otype, float timet, float* N1, float* N2)
 {
-    fptype OptionPrice;
+    float OptionPrice;
 
     // local private working variables for the calculation
-    //fptype xStockPrice;
-    //fptype xStrikePrice;
-    fptype xRiskFreeRate;
-    fptype xVolatility;
-    fptype xTime;
-    fptype xSqrtTime;
+    //float xStockPrice;
+    //float xStrikePrice;
+    float xRiskFreeRate;
+    float xVolatility;
+    float xTime;
+    float xSqrtTime;
 
-    fptype logValues;
-    fptype xLogTerm;
-    fptype xD1; 
-    fptype xD2;
-    fptype xPowerTerm;
-    fptype xDen;
-    fptype d1;
-    fptype d2;
-    fptype FutureValueX;
-    fptype NofXd1;
-    fptype NofXd2;
-    fptype NegNofXd1;
-    fptype NegNofXd2;  
+    float logValues;
+    float xLogTerm;
+    float xD1; 
+    float xD2;
+    float xPowerTerm;
+    float xDen;
+    float d1;
+    float d2;
+    float FutureValueX;
+    float NofXd1;
+    float NofXd2;
+    float NegNofXd1;
+    float NegNofXd2;  
     
     //xStockPrice = sptprice;
     //xStrikePrice = strike;
@@ -237,15 +237,15 @@ int bs_thread(void *tid_ptr) {
     int tid = *(int *)tid_ptr;
     int start = tid * (numOptions);
     int end = start + (numOptions);
-    fptype price_orig;
+    float price_orig;
 
     for (j=0; j<NUM_RUNS; j++) {
         for (i=start; i<end; i++) {
             /* Calling main function to calculate option value based on 
              * Black & Scholes's equation.
              */
-            fptype price;
-            fptype N1, N2;
+            float price;
+            float N1, N2;
 
             double dataIn[6];
             double dataOut[1];
@@ -278,7 +278,7 @@ void doWork (const char* inputFile, const char* outputFile)
     FILE *file;
     int i;
     int loopnum;
-    fptype * buffer;
+    float * buffer;
     int * buffer2;
     int rv;
 
@@ -305,7 +305,7 @@ void doWork (const char* inputFile, const char* outputFile)
 
     // alloc spaces for the option data
     data = (OptionData*)malloc(numOptions*sizeof(OptionData));
-    prices = (fptype*)malloc(numOptions*sizeof(fptype));
+    prices = (float*)malloc(numOptions*sizeof(float));
     for ( loopnum = 0; loopnum < numOptions; ++ loopnum )
     {
         rv = fscanf(file, "%f %f %f %f %f %f %c %f %f", &data[loopnum].s, &data[loopnum].strike, &data[loopnum].r, &data[loopnum].divq, &data[loopnum].v, &data[loopnum].t, &data[loopnum].OptionType, &data[loopnum].divs, &data[loopnum].DGrefval);
@@ -324,14 +324,14 @@ void doWork (const char* inputFile, const char* outputFile)
 #define PAD 256
 #define LINESIZE 64
 
-    buffer = (fptype *) malloc(5 * numOptions * sizeof(fptype) + PAD);
-    sptprice = (fptype *) (((unsigned long long)buffer + PAD) & ~(LINESIZE - 1));
+    buffer = (float *) malloc(5 * numOptions * sizeof(float) + PAD);
+    sptprice = (float *) (((unsigned long long)buffer + PAD) & ~(LINESIZE - 1));
     strike = sptprice + numOptions;
     rate = strike + numOptions;
     volatility = rate + numOptions;
     otime = volatility + numOptions;
 
-    buffer2 = (int *) malloc(numOptions * sizeof(fptype) + PAD);
+    buffer2 = (int *) malloc(numOptions * sizeof(float) + PAD);
     otype = (int *) (((unsigned long long)buffer2 + PAD) & ~(LINESIZE - 1));
 
     for (i=0; i<numOptions; i++) {
