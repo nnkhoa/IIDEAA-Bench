@@ -35,7 +35,13 @@
 iidea-install/
 VPA_fft/
 build/
+black_scholes/
+k-means/
+test/
 
 #script
 dockerScript.sh
 dockerCleanup.sh
+
+#Chimera ouptput folder
+*/clang-chimera/output
