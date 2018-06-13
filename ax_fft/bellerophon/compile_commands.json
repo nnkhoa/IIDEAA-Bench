@@ -18,6 +18,6 @@
 {
 	"directory": "/opt/ax_fft/bellerophon",
 	"command": "/usr/bin/clang++ -I/opt/ax_fft/src -Wfatal-errors -fno-use-cxa-atexit -fPIC -g   -std=gnu++11 -c /opt/ax_fft/bellerophon/bellerophon_functions.cpp",
-	"file": "/opt/ax_fft/bellelrophon/bellerophon_functions.cpp"
+	"file": "/opt/ax_fft/bellerophon/bellerophon_functions.cpp"
 }
 ]

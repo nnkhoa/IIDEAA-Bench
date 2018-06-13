@@ -26,8 +26,11 @@ extern "C" double BELLERO_getError(){
 		exit(1);
 	}
 
-	double WCE = 0.0;
-	double tmp;
+	double avgError = 0.0;
+	double error = 0.0;
+	double absError = 0.0;
+	double denominator = 0.0;
+	int count = 0;
 
 	double greal, gima;
 	double axreal, axima;
@@ -39,11 +42,14 @@ extern "C" double BELLERO_getError(){
 		diffreal = greal - axreal;
 		diffimg = gima - axima;
 
-		tmp = sqrt((diffreal*diffreal) + (diffimg*diffimg));
+		error = sqrt((diffreal*diffreal) + (diffimg*diffimg));
+		denominator = sqrt((greal*greal) + (gima*gima));
 
-		if (tmp > WCE) 
-			WCE = tmp;
+		absError += (error/denominator);
+		count++;
 	}
+	
+	avgError = absError/count;
 
-	return WCE;
+	return avgError;
 }
