@@ -47,7 +47,7 @@ extern "C" double BELLERO_getError() {
 	::std::string axValue0, axValue1;
 	double diff0, diff1;
 	
-	::std::cout << "Calculating Error: \n";	
+	//::std::cout << "Calculating Error: \n";	
 	while (!oracle.eof () && !axc.eof()) {
 		//::std::cout << count << "\n";	
 		oracle >> oValue0 >> oValue1;
@@ -57,7 +57,7 @@ extern "C" double BELLERO_getError() {
 		
 		//check if any value is NaN
 		if (oValue0.compare("nan") == 0 || oValue1.compare("nan") == 0 || axValue0.compare("nan") == 0 || axValue1.compare("nan") == 0) {
-			::std::cout << "NaN\n";
+		//	::std::cout << "NaN\n";
 			count ++;
 			absError += 1;
 			continue;
@@ -82,8 +82,8 @@ extern "C" double BELLERO_getError() {
 		count++;
 
 	}
-	::std::cout << "Done calculating\n";
-	::std::cout << absError << " " << count <<"\n";
+	//::std::cout << "Done calculating\n";
+	//::std::cout << absError << " " << count <<"\n";
 	//return relative average error
 	return (double) absError/count;
 
