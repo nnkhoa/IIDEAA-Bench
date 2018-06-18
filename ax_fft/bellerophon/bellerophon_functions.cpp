@@ -49,7 +49,7 @@ extern "C" double BELLERO_getError(){
 		count++;
 	}
 	
-	avgError = absError/count;
+	avgError = (double)absError/count;
 
 	return avgError;
 }

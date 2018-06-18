@@ -65,7 +65,7 @@ extern "C" double BELLERO_getError() {
 		}
 	}
 	//return MSE
-	return distance/(imageWidth * imageHeight);
+	return (double)distance/(imageWidth * imageHeight);
 
 }
 
