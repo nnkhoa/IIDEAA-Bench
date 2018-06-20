@@ -45,3 +45,7 @@ dockerCleanup.sh
 
 #Chimera ouptput folder
 */clang-chimera/output
+
+#libraries
+libjpeg-turbo-1.5.3/
+
