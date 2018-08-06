@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/opt/ax_jpeg/src/build",
+  "command": "/usr/bin/clang++    -I/usr/include/c++/6.3.1 -I/opt/ax_jpeg/src/include   -Wfatal-errors -fno-use-cxa-atexit -fPIC -g -ljpeg   -std=gnu++11 -o CMakeFiles/jpeg.dir/dct.cpp.o -c /opt/ax_jpeg/src/dct.cpp",
+  "file": "/opt/ax_jpeg/src/dct.cpp"
+},
+{
+  "directory": "/opt/ax_jpeg/bellerophon",
+  "command": "/usr/bin/clang++    -I/usr/include/c++/6.3.1 -I/opt/ax_jpeg/src/include   -Wfatal-errors -fno-use-cxa-atexit -fPIC -g -ljpeg   -std=gnu++11 -o CMakeFiles/jpeg.dir/encoder.cpp.o -c /opt/ax_jpeg/clang-chimera/output/mutants/encoder.cpp/5/encoder.cpp",
+  "file": "/opt/ax_jpeg/clang-chimera/output/mutants/encoder.cpp/5/encoder.cpp"
+},
+{
+  "directory": "/opt/ax_jpeg/src/build",
+  "command": "/usr/bin/clang++    -I/usr/include/c++/6.3.1 -I/opt/ax_jpeg/src/include   -Wfatal-errors -fno-use-cxa-atexit -fPIC -g -ljpeg   -std=gnu++11 -o CMakeFiles/jpeg.dir/huffman.cpp.o -c /opt/ax_jpeg/src/huffman.cpp",
+  "file": "/opt/ax_jpeg/src/huffman.cpp"
+},
+{
+  "directory": "/opt/ax_jpeg/src/build",
+  "command": "/usr/bin/clang++    -I/usr/include/c++/6.3.1 -I/opt/ax_jpeg/src/include   -Wfatal-errors -fno-use-cxa-atexit -fPIC -g -ljpeg   -std=gnu++11 -o CMakeFiles/jpeg.dir/jpeg.cpp.o -c /opt/ax_jpeg/src/jpeg.cpp",
+  "file": "/opt/ax_jpeg/src/jpeg.cpp"
+},
+{
+  "directory": "/opt/ax_jpeg/src/build",
+  "command": "/usr/bin/clang++    -I/usr/include/c++/6.3.1 -I/opt/ax_jpeg/src/include   -Wfatal-errors -fno-use-cxa-atexit -fPIC -g -ljpeg   -std=gnu++11 -o CMakeFiles/jpeg.dir/marker.cpp.o -c /opt/ax_jpeg/src/marker.cpp",
+  "file": "/opt/ax_jpeg/src/marker.cpp"
+},
+{
+  "directory": "/opt/ax_jpeg/src/build",
+  "command": "/usr/bin/clang++    -I/usr/include/c++/6.3.1 -I/opt/ax_jpeg/src/include   -Wfatal-errors -fno-use-cxa-atexit -fPIC -g -ljpeg   -std=gnu++11 -o CMakeFiles/jpeg.dir/quant.cpp.o -c /opt/ax_jpeg/src/quant.cpp",
+  "file": "/opt/ax_jpeg/src/quant.cpp"
+},
+{
+  "directory": "/opt/ax_jpeg/src/build",
+  "command": "/usr/bin/clang++    -I/usr/include/c++/6.3.1 -I/opt/ax_jpeg/src/include   -Wfatal-errors -fno-use-cxa-atexit -fPIC -g -ljpeg   -std=gnu++11 -o CMakeFiles/jpeg.dir/rgbimage.cpp.o -c /opt/ax_jpeg/src/rgbimage.cpp",
+  "file": "/opt/ax_jpeg/src/rgbimage.cpp"
+},
+{
+	"directory": "/opt/ax_jpeg/bellerophon",
+	"command": "/usr/bin/clang++   -I/usr/include/c++/6.3.1 -I/opt/ax_jpeg/src/include   -fno-use-cxa-atexit -fPIC -g -ljpeg   -std=gnu++11 -o /opt/ax_jpeg/bellerophon/bellerophon_functions.cpp.o -c /opt/ax_jpeg/bellerophon/bellerophon_functions.cpp",
+	"file": "/opt/ax_jpeg/bellerophon/bellerophon_functions.cpp"
+}
+]

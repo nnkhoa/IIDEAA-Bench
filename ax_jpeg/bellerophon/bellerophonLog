@@ -1,0 +1,390 @@
+[BELLEROPHON VERBOSE-0] > Loading object:vpa.o
+
+[BELLEROPHON VERBOSE-0] > Loading object:/usr/lib/libjpeg.so
+
+[BELLEROPHON VERBOSE-0] > Read Context VpaAprx
+[BELLEROPHON VERBOSE-0] > Reading a VPA report:
+
+[BELLEROPHON VERBOSE-0] > OperationId: OP_0, OpReType: DOUBLE, OperationType: DIV.
+Operand 1: Y1[i], Operand 2: 256., Return Operand: NULL.
+
+
+[BELLEROPHON VERBOSE-0] > OperationId: OP_1, OpReType: DOUBLE, OperationType: DIV.
+Operand 1: Temp[i], Operand 2: 256., Return Operand: NULL.
+
+
+[BELLEROPHON VERBOSE-0] > OperationId: OP_2, OpReType: DOUBLE, OperationType: MUL.
+Operand 1: dataOut[i], Operand 2: 256.0, Return Operand: NULL.
+
+
+[BELLEROPHON INFO] Compiling the database ...
+
+[BELLEROPHON VERBOSE-0] > Creating an execution engine and adding module 
+ 
+[BELLEROPHON VERBOSE-0] > Trying to load: vpa.o...
+[BELLEROPHON VERBOSE-0] > Loading Object...
+[BELLEROPHON VERBOSE-0] > object loaded!
+[BELLEROPHON VERBOSE-0] > Trying to load: /usr/lib/libjpeg.so...
+[BELLEROPHON VERBOSE-0] > Loading Shared Object...
+[BELLEROPHON VERBOSE-0] > Shared object loaded!
+[BELLEROPHON INFO] Compiling the database ... Done
+[BELLEROPHON VERBOSE-0] > Applying evolution algortithm with tau= 150.000000
+
+[BELLEROPHON VERBOSE-0] > OP_0 @ Address: 0x00007f58bc270804 - Prec(0:0)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 1
+
+[BELLEROPHON VERBOSE-0] > After approximation: 8:23
+
+[BELLEROPHON VERBOSE-0] > OP_1 @ Address: 0x00007f58bc270800 - Prec(0:0)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 2
+
+[BELLEROPHON VERBOSE-0] > After approximation: 5:10
+
+[BELLEROPHON VERBOSE-0] > OP_2 @ Address: 0x00007f58bc2707fc - Prec(0:0)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 2
+
+[BELLEROPHON VERBOSE-0] > After approximation: 5:10
+
+Opening Oracle Image file...
+Opening Ax Image file...
+[BELLEROPHON VERBOSE-0] > OP_0 @ Address: 0x00007f58bc270804 - Prec(8:23)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 1
+
+[BELLEROPHON VERBOSE-0] > After approximation: 8:23
+
+[BELLEROPHON VERBOSE-0] > OP_1 @ Address: 0x00007f58bc270800 - Prec(5:10)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 1
+
+[BELLEROPHON VERBOSE-0] > After approximation: 8:23
+
+[BELLEROPHON VERBOSE-0] > OP_2 @ Address: 0x00007f58bc2707fc - Prec(5:10)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 1
+
+[BELLEROPHON VERBOSE-0] > After approximation: 8:23
+
+Opening Oracle Image file...
+Opening Ax Image file...
+[BELLEROPHON VERBOSE-0] > OP_0 @ Address: 0x00007f58bc270804 - Prec(8:23)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 0
+
+[BELLEROPHON VERBOSE-0] > After approximation: 11:52
+
+[BELLEROPHON VERBOSE-0] > OP_1 @ Address: 0x00007f58bc270800 - Prec(8:23)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 0
+
+[BELLEROPHON VERBOSE-0] > After approximation: 11:52
+
+[BELLEROPHON VERBOSE-0] > OP_2 @ Address: 0x00007f58bc2707fc - Prec(8:23)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 1
+
+[BELLEROPHON VERBOSE-0] > After approximation: 8:23
+
+Opening Oracle Image file...
+Opening Ax Image file...
+[BELLEROPHON VERBOSE-0] > OP_0 @ Address: 0x00007f58bc270804 - Prec(11:52)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 0
+
+[BELLEROPHON VERBOSE-0] > After approximation: 11:52
+
+[BELLEROPHON VERBOSE-0] > OP_1 @ Address: 0x00007f58bc270800 - Prec(11:52)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 0
+
+[BELLEROPHON VERBOSE-0] > After approximation: 11:52
+
+[BELLEROPHON VERBOSE-0] > OP_2 @ Address: 0x00007f58bc2707fc - Prec(8:23)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 2
+
+[BELLEROPHON VERBOSE-0] > After approximation: 5:10
+
+Opening Oracle Image file...
+Opening Ax Image file...
+[BELLEROPHON VERBOSE-0] > OP_0 @ Address: 0x00007f58bc270804 - Prec(11:52)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 2
+
+[BELLEROPHON VERBOSE-0] > After approximation: 5:10
+
+[BELLEROPHON VERBOSE-0] > OP_1 @ Address: 0x00007f58bc270800 - Prec(11:52)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 2
+
+[BELLEROPHON VERBOSE-0] > After approximation: 5:10
+
+[BELLEROPHON VERBOSE-0] > OP_2 @ Address: 0x00007f58bc2707fc - Prec(5:10)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 0
+
+[BELLEROPHON VERBOSE-0] > After approximation: 11:52
+
+Opening Oracle Image file...
+Opening Ax Image file...
+[BELLEROPHON VERBOSE-0] > OP_0 @ Address: 0x00007f58bc270804 - Prec(5:10)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 0
+
+[BELLEROPHON VERBOSE-0] > After approximation: 11:52
+
+[BELLEROPHON VERBOSE-0] > OP_1 @ Address: 0x00007f58bc270800 - Prec(5:10)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 2
+
+[BELLEROPHON VERBOSE-0] > After approximation: 5:10
+
+[BELLEROPHON VERBOSE-0] > OP_2 @ Address: 0x00007f58bc2707fc - Prec(11:52)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 0
+
+[BELLEROPHON VERBOSE-0] > After approximation: 11:52
+
+Opening Oracle Image file...
+Opening Ax Image file...
+[BELLEROPHON VERBOSE-0] > OP_0 @ Address: 0x00007f58bc270804 - Prec(11:52)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 2
+
+[BELLEROPHON VERBOSE-0] > After approximation: 5:10
+
+[BELLEROPHON VERBOSE-0] > OP_1 @ Address: 0x00007f58bc270800 - Prec(5:10)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 2
+
+[BELLEROPHON VERBOSE-0] > After approximation: 5:10
+
+[BELLEROPHON VERBOSE-0] > OP_2 @ Address: 0x00007f58bc2707fc - Prec(11:52)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 0
+
+[BELLEROPHON VERBOSE-0] > After approximation: 11:52
+
+Opening Oracle Image file...
+Opening Ax Image file...
+[BELLEROPHON VERBOSE-0] > OP_0 @ Address: 0x00007f58bc270804 - Prec(5:10)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 2
+
+[BELLEROPHON VERBOSE-0] > After approximation: 5:10
+
+[BELLEROPHON VERBOSE-0] > OP_1 @ Address: 0x00007f58bc270800 - Prec(5:10)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 2
+
+[BELLEROPHON VERBOSE-0] > After approximation: 5:10
+
+[BELLEROPHON VERBOSE-0] > OP_2 @ Address: 0x00007f58bc2707fc - Prec(11:52)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 2
+
+[BELLEROPHON VERBOSE-0] > After approximation: 5:10
+
+Opening Oracle Image file...
+Opening Ax Image file...
+[BELLEROPHON VERBOSE-0] > OP_0 @ Address: 0x00007f58bc270804 - Prec(5:10)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 0
+
+[BELLEROPHON VERBOSE-0] > After approximation: 11:52
+
+[BELLEROPHON VERBOSE-0] > OP_1 @ Address: 0x00007f58bc270800 - Prec(5:10)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 1
+
+[BELLEROPHON VERBOSE-0] > After approximation: 8:23
+
+[BELLEROPHON VERBOSE-0] > OP_2 @ Address: 0x00007f58bc2707fc - Prec(5:10)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 0
+
+[BELLEROPHON VERBOSE-0] > After approximation: 11:52
+
+Opening Oracle Image file...
+Opening Ax Image file...
+[BELLEROPHON VERBOSE-0] > OP_0 @ Address: 0x00007f58bc270804 - Prec(11:52)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 2
+
+[BELLEROPHON VERBOSE-0] > After approximation: 5:10
+
+[BELLEROPHON VERBOSE-0] > OP_1 @ Address: 0x00007f58bc270800 - Prec(8:23)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 2
+
+[BELLEROPHON VERBOSE-0] > After approximation: 5:10
+
+[BELLEROPHON VERBOSE-0] > OP_2 @ Address: 0x00007f58bc2707fc - Prec(11:52)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 0
+
+[BELLEROPHON VERBOSE-0] > After approximation: 11:52
+
+Opening Oracle Image file...
+Opening Ax Image file...
+[BELLEROPHON VERBOSE-0] > OP_0 @ Address: 0x00007f58bc270804 - Prec(5:10)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 2
+
+[BELLEROPHON VERBOSE-0] > After approximation: 5:10
+
+[BELLEROPHON VERBOSE-0] > OP_1 @ Address: 0x00007f58bc270800 - Prec(5:10)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 0
+
+[BELLEROPHON VERBOSE-0] > After approximation: 11:52
+
+[BELLEROPHON VERBOSE-0] > OP_2 @ Address: 0x00007f58bc2707fc - Prec(11:52)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 0
+
+[BELLEROPHON VERBOSE-0] > After approximation: 11:52
+
+Opening Oracle Image file...
+Opening Ax Image file...
+[BELLEROPHON VERBOSE-0] > OP_0 @ Address: 0x00007f58bc270804 - Prec(5:10)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 1
+
+[BELLEROPHON VERBOSE-0] > After approximation: 8:23
+
+[BELLEROPHON VERBOSE-0] > OP_1 @ Address: 0x00007f58bc270800 - Prec(11:52)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 2
+
+[BELLEROPHON VERBOSE-0] > After approximation: 5:10
+
+[BELLEROPHON VERBOSE-0] > OP_2 @ Address: 0x00007f58bc2707fc - Prec(11:52)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 1
+
+[BELLEROPHON VERBOSE-0] > After approximation: 8:23
+
+Opening Oracle Image file...
+Opening Ax Image file...
+[BELLEROPHON VERBOSE-0] > OP_0 @ Address: 0x00007f58bc270804 - Prec(8:23)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 0
+
+[BELLEROPHON VERBOSE-0] > After approximation: 11:52
+
+[BELLEROPHON VERBOSE-0] > OP_1 @ Address: 0x00007f58bc270800 - Prec(5:10)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 0
+
+[BELLEROPHON VERBOSE-0] > After approximation: 11:52
+
+[BELLEROPHON VERBOSE-0] > OP_2 @ Address: 0x00007f58bc2707fc - Prec(8:23)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 0
+
+[BELLEROPHON VERBOSE-0] > After approximation: 11:52
+
+Opening Oracle Image file...
+Opening Ax Image file...
+[BELLEROPHON VERBOSE-0] > OP_0 @ Address: 0x00007f58bc270804 - Prec(11:52)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 2
+
+[BELLEROPHON VERBOSE-0] > After approximation: 5:10
+
+[BELLEROPHON VERBOSE-0] > OP_1 @ Address: 0x00007f58bc270800 - Prec(11:52)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 0
+
+[BELLEROPHON VERBOSE-0] > After approximation: 11:52
+
+[BELLEROPHON VERBOSE-0] > OP_2 @ Address: 0x00007f58bc2707fc - Prec(11:52)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 0
+
+[BELLEROPHON VERBOSE-0] > After approximation: 11:52
+
+Opening Oracle Image file...
+Opening Ax Image file...
+[BELLEROPHON VERBOSE-0] > OP_0 @ Address: 0x00007f58bc270804 - Prec(5:10)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 0
+
+[BELLEROPHON VERBOSE-0] > After approximation: 11:52
+
+[BELLEROPHON VERBOSE-0] > OP_1 @ Address: 0x00007f58bc270800 - Prec(11:52)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 2
+
+[BELLEROPHON VERBOSE-0] > After approximation: 5:10
+
+[BELLEROPHON VERBOSE-0] > OP_2 @ Address: 0x00007f58bc2707fc - Prec(11:52)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 0
+
+[BELLEROPHON VERBOSE-0] > After approximation: 11:52
+
+Opening Oracle Image file...
+Opening Ax Image file...
+[BELLEROPHON VERBOSE-0] > OP_0 @ Address: 0x00007f58bc270804 - Prec(11:52)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 0
+
+[BELLEROPHON VERBOSE-0] > After approximation: 11:52
+
+[BELLEROPHON VERBOSE-0] > OP_1 @ Address: 0x00007f58bc270800 - Prec(5:10)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 1
+
+[BELLEROPHON VERBOSE-0] > After approximation: 8:23
+
+[BELLEROPHON VERBOSE-0] > OP_2 @ Address: 0x00007f58bc2707fc - Prec(11:52)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 0
+
+[BELLEROPHON VERBOSE-0] > After approximation: 11:52
+
+Opening Oracle Image file...
+Opening Ax Image file...
+[BELLEROPHON VERBOSE-0] > OP_0 @ Address: 0x00007f58bc270804 - Prec(11:52)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 0
+
+[BELLEROPHON VERBOSE-0] > After approximation: 11:52
+
+[BELLEROPHON VERBOSE-0] > OP_1 @ Address: 0x00007f58bc270800 - Prec(8:23)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 0
+
+[BELLEROPHON VERBOSE-0] > After approximation: 11:52
+
+[BELLEROPHON VERBOSE-0] > OP_2 @ Address: 0x00007f58bc2707fc - Prec(11:52)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 2
+
+[BELLEROPHON VERBOSE-0] > After approximation: 5:10
+
+Opening Oracle Image file...
+Opening Ax Image file...
+[BELLEROPHON VERBOSE-0] > OP_0 @ Address: 0x00007f58bc270804 - Prec(11:52)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 2
+
+[BELLEROPHON VERBOSE-0] > After approximation: 5:10
+
+[BELLEROPHON VERBOSE-0] > OP_1 @ Address: 0x00007f58bc270800 - Prec(11:52)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 1
+
+[BELLEROPHON VERBOSE-0] > After approximation: 8:23
+
+[BELLEROPHON VERBOSE-0] > OP_2 @ Address: 0x00007f58bc2707fc - Prec(5:10)
+
+[BELLEROPHON VERBOSE-0] > Actual grade: 0; Required grade: 2
+
+[BELLEROPHON VERBOSE-0] > After approximation: 5:10
+
