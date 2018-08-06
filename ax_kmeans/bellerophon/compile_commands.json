@@ -6,8 +6,8 @@
 },
 {
   "directory": "/opt/ax_kmeans/bellerophon",
-  "command": "/usr/bin/clang++    -I/opt/ax_kmeans/src/.    -fno-use-cxa-atexit -fPIC -g   -std=gnu++11 -o CMakeFiles/kmeans.dir/segmentation.cpp.o -c /opt/ax_kmeans/clang-chimera/output/mutants/segmentation.cpp/4/segmentation.cpp",
-  "file": "/opt/ax_kmeans/clang-chimera/output/mutants/segmentation.cpp/4/segmentation.cpp"
+  "command": "/usr/bin/clang++    -I/opt/ax_kmeans/src/.    -fno-use-cxa-atexit -fPIC -g   -std=gnu++11 -o CMakeFiles/kmeans.dir/segmentation.cpp.o -c /opt/ax_kmeans/clang-chimera/output/mutants/segmentation.cpp/5/segmentation.cpp",
+  "file": "/opt/ax_kmeans/clang-chimera/output/mutants/segmentation.cpp/5/segmentation.cpp"
 },
 {
   "directory": "/opt/ax_kmeans/src/build",

@@ -10,8 +10,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "vpa_n.h"
-#include "fap.h"
+#include "vpa.h"
+// #include "fap.h"
 #include "distance.h"
 
 int initClusters(Clusters* clusters, int k, float scale) {

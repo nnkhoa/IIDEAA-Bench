@@ -1,6 +1,6 @@
 
 #include "fourier.hpp"
-#include "vpa_n.h"
+#include "vpa.h"
 
 #include <cmath>
 #include <fstream>

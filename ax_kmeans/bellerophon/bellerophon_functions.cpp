@@ -2,12 +2,12 @@
 #include <string>
 #include <math.h>
 
-#include "vpa_n.h"
+#include "vpa.h"
 #include "kmeans.h"
 #include "rgbimage.h"
 //#include "fap.h"
 
-bool vpa_n::VPA::UPCASTING = false;
+// bool vpa_n::VPA::UPCASTING = false;
 
 const char* inputPath = "/opt/ax_kmeans/test.data/input/10.rgb";
 const char* axPath = "/opt/ax_kmeans/src/build/ax.rgb";
@@ -47,10 +47,10 @@ extern "C" double BELLERO_getError() {
 	initRgbImage(&axImage);
 
 	//load image
-	::std::cout << "Opening Oracle Image file...\n";
+	//::std::cout << "Opening Oracle Image file...\n";
 	loadImageFile(oraclePath, &oracleImage);
 
-	::std::cout << "Opening Ax Image file...\n";
+	//::std::cout << "Opening Ax Image file...\n";
 	loadImageFile(axPath, &axImage);	
 	
 	//calculate distance
@@ -69,6 +69,35 @@ extern "C" double BELLERO_getError() {
 
 }
 
+extern vpa::FloatingPointPrecision OP_0, OP_1, OP_2, OP_3, OP_4, OP_5;
+
+extern "C" double BELLERO_Reward()
+{
+	double rew = 0;
+
+	//  MantType mant;
+	int gradeMant[6];
+	int gradeExp[6];
+
+	gradeMant[0] = 54 - OP_0.mant_size;
+	gradeMant[1] = 54 - OP_1.mant_size;
+	gradeMant[2] = 54 - OP_2.mant_size;
+	gradeMant[3] = 54 - OP_3.mant_size;
+	gradeMant[4] = 54 - OP_4.mant_size;
+	gradeMant[5] = 54 - OP_5.mant_size;
+    
+	gradeExp[0] = 11 - OP_0.exp_size;
+	gradeExp[1] = 11 - OP_1.exp_size;
+	gradeExp[2] = 11 - OP_2.exp_size;
+	gradeExp[3] = 11 - OP_3.exp_size;
+	gradeExp[4] = 11 - OP_4.exp_size;
+	gradeExp[5] = 11 - OP_5.exp_size;
+	
+	for(int i = 0; i < 6; i++)
+		rew+=gradeMant[i]*gradeMant[i]+gradeExp[i];
+//printf("Reward: %g\n\n", rew);
+	return rew;
+}
 
 //extern fap::FloatPrecTy OP_0, OP_1, OP_2, OP_3, OP_4, OP_5;
 //

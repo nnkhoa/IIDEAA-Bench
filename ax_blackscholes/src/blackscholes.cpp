@@ -16,7 +16,7 @@
 #include <vector>
 #include <iomanip>
 
-#include "vpa_n.h"
+#include "vpa.h"
 //double max_otype, min_otype ;
 //double max_sptprice, min_sptprice;
 //double max_strike, min_strike;
@@ -30,7 +30,7 @@
 
 
 //Precision to use for calculations
-//#define float float
+#define fptype float
 
 #define NUM_RUNS 1
 
@@ -196,13 +196,17 @@ float BlkSchlsEqEuroNoDiv( float sptprice,
     
     NofXd1 = CNDF( d1 );
 
-    if(NofXd1 > 1.0)
-        std::cerr << "Greater than one!" << std::endl ;
+    //if(NofXd1 > 1.0){
+    //    std::cerr << "Greater than one!" << std::endl;
+    //    NofXd1 = 1.0;
+    //}
     //printf("# d1: %10.10f\n", NofXd1);
 
     NofXd2 = CNDF( d2 );
-    if(NofXd2 > 1.0)
-         std::cerr << "Greater than one!" << std::endl ;
+    //if(NofXd2 > 1.0){
+    //     std::cerr << "Greater than one!" << std::endl;
+    //     NofXd2 = 1.0;
+    //}
     //printf("# d2: %10.10f\n", NofXd2);
 
     *N1 = NofXd1 ;
