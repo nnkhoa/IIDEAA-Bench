@@ -1,0 +1,1175 @@
+[BELLEROPHON INFO] Compiling the database ...
+
+[BELLEROPHON INFO] Compiling the database ... Done
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2513814569. Bit fail 8124.
+Epochs           10. Current error: 0.2801562250. Bit fail 6046.
+Epochs           20. Current error: 0.2523795664. Bit fail 8124.
+Epochs           30. Current error: 0.2498729825. Bit fail 8124.
+Epochs           40. Current error: 0.2498659939. Bit fail 8124.
+Epochs           50. Current error: 0.2498823553. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249609
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2467189729. Bit fail 8124.
+Epochs           10. Current error: 0.2868030071. Bit fail 6140.
+Epochs           20. Current error: 0.2504575253. Bit fail 8124.
+Epochs           30. Current error: 0.2499347329. Bit fail 8124.
+Epochs           40. Current error: 0.2498790324. Bit fail 8124.
+Epochs           50. Current error: 0.2498544753. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249612
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2494877875. Bit fail 8124.
+Epochs           10. Current error: 0.0694202557. Bit fail 1455.
+Epochs           20. Current error: 0.0053812228. Bit fail 70.
+Epochs           30. Current error: 0.0008815655. Bit fail 8.
+Epochs           40. Current error: 0.0028941112. Bit fail 46.
+Epochs           50. Current error: 0.0015647194. Bit fail 16.
+Testing network.
+MSE error on test data: 0.001181
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2513598204. Bit fail 8124.
+Epochs           10. Current error: 0.3628924489. Bit fail 4129.
+Epochs           20. Current error: 0.1786932349. Bit fail 3871.
+Epochs           30. Current error: 0.0199562367. Bit fail 305.
+Epochs           40. Current error: 0.0030835953. Bit fail 22.
+Epochs           50. Current error: 0.0034224379. Bit fail 34.
+Testing network.
+MSE error on test data: 0.002615
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2522183359. Bit fail 8124.
+Epochs           10. Current error: 0.0083286455. Bit fail 85.
+Epochs           20. Current error: 0.0055394163. Bit fail 53.
+Epochs           30. Current error: 0.0008391642. Bit fail 7.
+Epochs           40. Current error: 0.0026205957. Bit fail 24.
+Epochs           50. Current error: 0.0013915423. Bit fail 17.
+Testing network.
+MSE error on test data: 0.000823
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2503391206. Bit fail 8124.
+Epochs           10. Current error: 0.3270010948. Bit fail 4062.
+Epochs           20. Current error: 0.2518359423. Bit fail 8124.
+Epochs           30. Current error: 0.2498811483. Bit fail 8124.
+Epochs           40. Current error: 0.2498767376. Bit fail 8124.
+Epochs           50. Current error: 0.2498673201. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249611
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2495730519. Bit fail 8124.
+Epochs           10. Current error: 0.2552970350. Bit fail 8124.
+Epochs           20. Current error: 0.2500680983. Bit fail 8124.
+Epochs           30. Current error: 0.2498991489. Bit fail 8124.
+Epochs           40. Current error: 0.2498647869. Bit fail 8124.
+Epochs           50. Current error: 0.2498586029. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249632
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2527820170. Bit fail 8124.
+Epochs           10. Current error: 0.2791835368. Bit fail 6046.
+Epochs           20. Current error: 0.2558599710. Bit fail 8124.
+Epochs           30. Current error: 0.2498949915. Bit fail 8124.
+Epochs           40. Current error: 0.2498763651. Bit fail 8124.
+Epochs           50. Current error: 0.2498603165. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249625
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2522399127. Bit fail 8124.
+Epochs           10. Current error: 0.0026406448. Bit fail 33.
+Epochs           16. Current error: 0.0000305698. Bit fail 0.
+Testing network.
+MSE error on test data: 0.000005
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2497751415. Bit fail 8124.
+Epochs           10. Current error: 0.0324249193. Bit fail 376.
+Epochs           20. Current error: 0.0086372094. Bit fail 153.
+Epochs           30. Current error: 0.0081232646. Bit fail 79.
+Epochs           40. Current error: 0.0012465909. Bit fail 16.
+Epochs           50. Current error: 0.0018740731. Bit fail 16.
+Testing network.
+MSE error on test data: 0.000975
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2480692565. Bit fail 8124.
+Epochs           10. Current error: 0.2501013279. Bit fail 8124.
+Epochs           20. Current error: 0.2509590983. Bit fail 8124.
+Epochs           30. Current error: 0.2499570251. Bit fail 8124.
+Epochs           40. Current error: 0.2498732358. Bit fail 8124.
+Epochs           50. Current error: 0.2498701066. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249621
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2510281205. Bit fail 8124.
+Epochs           10. Current error: 0.2525353134. Bit fail 8124.
+Epochs           20. Current error: 0.2503836155. Bit fail 8124.
+Epochs           30. Current error: 0.2498751879. Bit fail 8124.
+Epochs           40. Current error: 0.2498722523. Bit fail 8124.
+Epochs           50. Current error: 0.2498765439. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249655
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2491912991. Bit fail 8124.
+Epochs           10. Current error: 0.2725028396. Bit fail 2911.
+Epochs           20. Current error: 0.0492915995. Bit fail 591.
+Epochs           30. Current error: 0.0027070676. Bit fail 38.
+Epochs           40. Current error: 0.0029603229. Bit fail 24.
+Epochs           50. Current error: 0.0032954866. Bit fail 25.
+Testing network.
+MSE error on test data: 0.002067
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2521071732. Bit fail 8124.
+Epochs           10. Current error: 0.2544133365. Bit fail 8124.
+Epochs           20. Current error: 0.2519445717. Bit fail 8124.
+Epochs           30. Current error: 0.2498810738. Bit fail 8124.
+Epochs           40. Current error: 0.2498809248. Bit fail 8124.
+Epochs           50. Current error: 0.2498784810. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249619
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2527054250. Bit fail 8124.
+Epochs           10. Current error: 0.3170079589. Bit fail 4156.
+Epochs           20. Current error: 0.2511718869. Bit fail 8124.
+Epochs           30. Current error: 0.2498525232. Bit fail 8124.
+Epochs           40. Current error: 0.2498841733. Bit fail 8124.
+Epochs           50. Current error: 0.2498684376. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249627
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2510798275. Bit fail 8124.
+Epochs           10. Current error: 0.2749306262. Bit fail 6140.
+Epochs           20. Current error: 0.2503574193. Bit fail 8124.
+Epochs           30. Current error: 0.2499828637. Bit fail 8124.
+Epochs           40. Current error: 0.2498548925. Bit fail 8124.
+Epochs           50. Current error: 0.2498863190. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249642
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2522773147. Bit fail 8124.
+Epochs           10. Current error: 0.2715815008. Bit fail 6140.
+Epochs           20. Current error: 0.2517060935. Bit fail 8124.
+Epochs           30. Current error: 0.2498889267. Bit fail 8124.
+Epochs           40. Current error: 0.2498759478. Bit fail 8124.
+Epochs           50. Current error: 0.2498876750. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249645
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2506678998. Bit fail 8124.
+Epochs           10. Current error: 0.3049964905. Bit fail 4062.
+Epochs           20. Current error: 0.2516763508. Bit fail 8124.
+Epochs           30. Current error: 0.2498722374. Bit fail 8124.
+Epochs           40. Current error: 0.2498520017. Bit fail 8124.
+Epochs           50. Current error: 0.2498866171. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249630
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2479582429. Bit fail 8124.
+Epochs           10. Current error: 0.2660571337. Bit fail 6140.
+Epochs           20. Current error: 0.2511961758. Bit fail 8124.
+Epochs           30. Current error: 0.2499582618. Bit fail 8124.
+Epochs           40. Current error: 0.2498624325. Bit fail 8124.
+Epochs           50. Current error: 0.2498815209. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249627
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2479612976. Bit fail 8124.
+Epochs           10. Current error: 0.2644791305. Bit fail 6046.
+Epochs           20. Current error: 0.2512508929. Bit fail 8124.
+Epochs           30. Current error: 0.2498604655. Bit fail 8124.
+Epochs           40. Current error: 0.2498712093. Bit fail 8124.
+Epochs           50. Current error: 0.2498765439. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249601
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2490348816. Bit fail 8124.
+Epochs           10. Current error: 0.3015259206. Bit fail 6046.
+Epochs           20. Current error: 0.2511501312. Bit fail 8124.
+Epochs           30. Current error: 0.2499142289. Bit fail 8124.
+Epochs           40. Current error: 0.2498909682. Bit fail 8124.
+Epochs           50. Current error: 0.2498732507. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249651
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2509948015. Bit fail 8124.
+Epochs           10. Current error: 0.2527101636. Bit fail 8124.
+Epochs           20. Current error: 0.2538105249. Bit fail 8124.
+Epochs           30. Current error: 0.2503452003. Bit fail 8124.
+Epochs           40. Current error: 0.2498698682. Bit fail 8124.
+Epochs           50. Current error: 0.2498853207. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249635
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2491308004. Bit fail 8124.
+Epochs           10. Current error: 0.2903625667. Bit fail 6046.
+Epochs           20. Current error: 0.2509077489. Bit fail 8124.
+Epochs           30. Current error: 0.2501690090. Bit fail 8124.
+Epochs           40. Current error: 0.2498733699. Bit fail 8124.
+Epochs           50. Current error: 0.2498594373. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249602
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2508085072. Bit fail 8124.
+Epochs           10. Current error: 0.2943527102. Bit fail 4062.
+Epochs           20. Current error: 0.2529215217. Bit fail 8124.
+Epochs           30. Current error: 0.2499195486. Bit fail 8124.
+Epochs           40. Current error: 0.2498698980. Bit fail 8124.
+Epochs           50. Current error: 0.2498625666. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249605
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2470907271. Bit fail 8124.
+Epochs           10. Current error: 0.2812470198. Bit fail 4062.
+Epochs           20. Current error: 0.2513665259. Bit fail 8124.
+Epochs           30. Current error: 0.2498945296. Bit fail 8124.
+Epochs           40. Current error: 0.2498738021. Bit fail 8124.
+Epochs           50. Current error: 0.2498695701. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249600
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2534976900. Bit fail 8124.
+Epochs           10. Current error: 0.3004054427. Bit fail 3969.
+Epochs           20. Current error: 0.0577852726. Bit fail 1626.
+Epochs           30. Current error: 0.0879973993. Bit fail 1335.
+Epochs           40. Current error: 0.0086854873. Bit fail 68.
+Epochs           50. Current error: 0.0085426783. Bit fail 69.
+Testing network.
+MSE error on test data: 0.008244
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2481454760. Bit fail 8124.
+Epochs           10. Current error: 0.2536261976. Bit fail 8124.
+Epochs           20. Current error: 0.2499721497. Bit fail 8124.
+Epochs           30. Current error: 0.2498729974. Bit fail 8124.
+Epochs           40. Current error: 0.2498623133. Bit fail 8124.
+Epochs           50. Current error: 0.2498877645. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249634
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2508915961. Bit fail 8124.
+Epochs           10. Current error: 0.2752076983. Bit fail 6046.
+Epochs           20. Current error: 0.2534252107. Bit fail 8124.
+Epochs           30. Current error: 0.2504228950. Bit fail 8124.
+Epochs           40. Current error: 0.2498839051. Bit fail 8124.
+Epochs           50. Current error: 0.2498783469. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249645
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2517121136. Bit fail 8124.
+Epochs           10. Current error: 0.2996384203. Bit fail 6140.
+Epochs           20. Current error: 0.2500934601. Bit fail 8124.
+Epochs           30. Current error: 0.2498744279. Bit fail 8124.
+Epochs           40. Current error: 0.2498686463. Bit fail 8124.
+Epochs           50. Current error: 0.2498827428. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249620
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2469575554. Bit fail 8124.
+Epochs           10. Current error: 0.2950675189. Bit fail 4062.
+Epochs           20. Current error: 0.2505773604. Bit fail 8124.
+Epochs           30. Current error: 0.2499000579. Bit fail 8124.
+Epochs           40. Current error: 0.2498630732. Bit fail 8124.
+Epochs           50. Current error: 0.2498653084. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249646
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2501780689. Bit fail 8124.
+Epochs           10. Current error: 0.2637014389. Bit fail 8124.
+Epochs           20. Current error: 0.2499672174. Bit fail 8124.
+Epochs           30. Current error: 0.2498887181. Bit fail 8124.
+Epochs           40. Current error: 0.2498557717. Bit fail 8124.
+Epochs           50. Current error: 0.2498616427. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249598
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2502930462. Bit fail 8124.
+Epochs           10. Current error: 0.2518473566. Bit fail 4554.
+Epochs           20. Current error: 0.0190378148. Bit fail 278.
+Epochs           30. Current error: 0.0040630098. Bit fail 70.
+Epochs           40. Current error: 0.0028987664. Bit fail 24.
+Epochs           50. Current error: 0.0029481063. Bit fail 29.
+Testing network.
+MSE error on test data: 0.001828
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2498015612. Bit fail 8124.
+Epochs           10. Current error: 0.2673875391. Bit fail 6046.
+Epochs           20. Current error: 0.2506961823. Bit fail 8124.
+Epochs           30. Current error: 0.2498804033. Bit fail 8124.
+Epochs           40. Current error: 0.2498650104. Bit fail 8124.
+Epochs           50. Current error: 0.2498949170. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249624
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2492353320. Bit fail 8124.
+Epochs           10. Current error: 0.2932779193. Bit fail 6140.
+Epochs           20. Current error: 0.2513498068. Bit fail 8124.
+Epochs           30. Current error: 0.2499955297. Bit fail 8124.
+Epochs           40. Current error: 0.2498647869. Bit fail 8124.
+Epochs           50. Current error: 0.2498481423. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249611
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2493269593. Bit fail 8124.
+Epochs           10. Current error: 0.2623609900. Bit fail 8124.
+Epochs           20. Current error: 0.2509683073. Bit fail 8124.
+Epochs           30. Current error: 0.2500348687. Bit fail 8124.
+Epochs           40. Current error: 0.2498801351. Bit fail 8124.
+Epochs           50. Current error: 0.2498766482. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249614
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2502003908. Bit fail 8124.
+Epochs           10. Current error: 0.3919366002. Bit fail 3968.
+Epochs           20. Current error: 0.0583886839. Bit fail 1329.
+Epochs           30. Current error: 0.0109338891. Bit fail 105.
+Epochs           40. Current error: 0.0091349864. Bit fail 96.
+Epochs           50. Current error: 0.0038218517. Bit fail 38.
+Testing network.
+MSE error on test data: 0.002181
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2514270842. Bit fail 8124.
+Epochs           10. Current error: 0.2870449722. Bit fail 6046.
+Epochs           20. Current error: 0.2544278204. Bit fail 8124.
+Epochs           30. Current error: 0.2499133348. Bit fail 8124.
+Epochs           40. Current error: 0.2498625815. Bit fail 8124.
+Epochs           50. Current error: 0.2498722076. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249618
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2499923855. Bit fail 8124.
+Epochs           10. Current error: 0.2736757994. Bit fail 6046.
+Epochs           20. Current error: 0.2515234649. Bit fail 8124.
+Epochs           30. Current error: 0.2498580962. Bit fail 8124.
+Epochs           40. Current error: 0.2498627603. Bit fail 8124.
+Epochs           50. Current error: 0.2498626262. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249621
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2511984110. Bit fail 8124.
+Epochs           10. Current error: 0.2754006088. Bit fail 4062.
+Epochs           20. Current error: 0.2503351569. Bit fail 8124.
+Epochs           30. Current error: 0.2498595566. Bit fail 8124.
+Epochs           40. Current error: 0.2498672307. Bit fail 8124.
+Epochs           50. Current error: 0.2498627901. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249619
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2490342408. Bit fail 8124.
+Epochs           10. Current error: 0.2668901086. Bit fail 6140.
+Epochs           20. Current error: 0.2502115965. Bit fail 8124.
+Epochs           30. Current error: 0.2499490380. Bit fail 8124.
+Epochs           40. Current error: 0.2498654574. Bit fail 8124.
+Epochs           50. Current error: 0.2498719692. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249593
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2482885718. Bit fail 8124.
+Epochs           10. Current error: 0.0145639963. Bit fail 141.
+Epochs           20. Current error: 0.0037787994. Bit fail 44.
+Epochs           30. Current error: 0.0033219275. Bit fail 32.
+Epochs           40. Current error: 0.0020498356. Bit fail 25.
+Epochs           50. Current error: 0.0032483321. Bit fail 25.
+Testing network.
+MSE error on test data: 0.001724
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2504390180. Bit fail 8124.
+Epochs           10. Current error: 0.2776289582. Bit fail 6046.
+Epochs           20. Current error: 0.2506908178. Bit fail 8124.
+Epochs           30. Current error: 0.2498793155. Bit fail 8124.
+Epochs           40. Current error: 0.2498629093. Bit fail 8124.
+Epochs           50. Current error: 0.2498584241. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249590
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2491141558. Bit fail 8124.
+Epochs           10. Current error: 0.2066614181. Bit fail 2539.
+Epochs           20. Current error: 0.0076078055. Bit fail 44.
+Epochs           30. Current error: 0.0046873637. Bit fail 42.
+Epochs           40. Current error: 0.0025674885. Bit fail 24.
+Epochs           50. Current error: 0.0029130487. Bit fail 24.
+Testing network.
+MSE error on test data: 0.004254
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2522197068. Bit fail 8124.
+Epochs           10. Current error: 0.3893934488. Bit fail 3862.
+Epochs           20. Current error: 0.0881591737. Bit fail 1234.
+Epochs           30. Current error: 0.0033925024. Bit fail 35.
+Epochs           40. Current error: 0.0030357360. Bit fail 24.
+Epochs           50. Current error: 0.0094834473. Bit fail 112.
+Testing network.
+MSE error on test data: 0.004444
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2517327666. Bit fail 8124.
+Epochs           10. Current error: 0.2644376457. Bit fail 8124.
+Epochs           20. Current error: 0.2509824634. Bit fail 8124.
+Epochs           30. Current error: 0.2498806715. Bit fail 8124.
+Epochs           40. Current error: 0.2498709112. Bit fail 8124.
+Epochs           50. Current error: 0.2498773783. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249645
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2509597838. Bit fail 8124.
+Epochs           10. Current error: 0.2559354007. Bit fail 8124.
+Epochs           20. Current error: 0.2508459389. Bit fail 8124.
+Epochs           30. Current error: 0.2498854250. Bit fail 8124.
+Epochs           40. Current error: 0.2498731464. Bit fail 8124.
+Epochs           50. Current error: 0.2498730868. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249636
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2522060573. Bit fail 8124.
+Epochs           10. Current error: 0.2887560725. Bit fail 6140.
+Epochs           20. Current error: 0.2560169995. Bit fail 8124.
+Epochs           30. Current error: 0.2499718219. Bit fail 8124.
+Epochs           40. Current error: 0.2498639375. Bit fail 8124.
+Epochs           50. Current error: 0.2498702258. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249644
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2494437993. Bit fail 8124.
+Epochs           10. Current error: 0.2591471076. Bit fail 8124.
+Epochs           20. Current error: 0.2515716255. Bit fail 8124.
+Epochs           30. Current error: 0.2499281168. Bit fail 8124.
+Epochs           40. Current error: 0.2498769611. Bit fail 8124.
+Epochs           50. Current error: 0.2498761415. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249630
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2515363693. Bit fail 8124.
+Epochs           10. Current error: 0.2773668170. Bit fail 4062.
+Epochs           20. Current error: 0.2539349794. Bit fail 8124.
+Epochs           30. Current error: 0.2499210089. Bit fail 8124.
+Epochs           40. Current error: 0.2498787194. Bit fail 8124.
+Epochs           50. Current error: 0.2498795241. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249610
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2496692240. Bit fail 8124.
+Epochs           10. Current error: 0.2569064498. Bit fail 8124.
+Epochs           20. Current error: 0.2512335479. Bit fail 8124.
+Epochs           30. Current error: 0.2500562370. Bit fail 8124.
+Epochs           40. Current error: 0.2498835623. Bit fail 8124.
+Epochs           50. Current error: 0.2498625368. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249633
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2524312735. Bit fail 8124.
+Epochs           10. Current error: 0.3041441441. Bit fail 6046.
+Epochs           20. Current error: 0.2516091168. Bit fail 8124.
+Epochs           30. Current error: 0.2498665452. Bit fail 8124.
+Epochs           40. Current error: 0.2498655766. Bit fail 8124.
+Epochs           50. Current error: 0.2498885840. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249602
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2514152825. Bit fail 8124.
+Epochs           10. Current error: 0.2849454880. Bit fail 6140.
+Epochs           20. Current error: 0.2505755126. Bit fail 8124.
+Epochs           30. Current error: 0.2498827130. Bit fail 8124.
+Epochs           40. Current error: 0.2498921156. Bit fail 8124.
+Epochs           50. Current error: 0.2498768419. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249635
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2519849837. Bit fail 8124.
+Epochs           10. Current error: 0.2781440914. Bit fail 6046.
+Epochs           20. Current error: 0.2514068484. Bit fail 8124.
+Epochs           30. Current error: 0.2498810440. Bit fail 8124.
+Epochs           40. Current error: 0.2498617321. Bit fail 8124.
+Epochs           50. Current error: 0.2498662770. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249657
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2512414157. Bit fail 8124.
+Epochs           10. Current error: 0.2669423223. Bit fail 6046.
+Epochs           20. Current error: 0.2525624335. Bit fail 8124.
+Epochs           30. Current error: 0.2499203235. Bit fail 8124.
+Epochs           40. Current error: 0.2498671860. Bit fail 8124.
+Epochs           50. Current error: 0.2498896569. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249655
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2461703569. Bit fail 8124.
+Epochs           10. Current error: 0.2602732182. Bit fail 6046.
+Epochs           20. Current error: 0.2546869814. Bit fail 8124.
+Epochs           30. Current error: 0.2499599606. Bit fail 8124.
+Epochs           40. Current error: 0.2498746812. Bit fail 8124.
+Epochs           50. Current error: 0.2498708963. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249621
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2485196292. Bit fail 8124.
+Epochs           10. Current error: 0.2883384824. Bit fail 6140.
+Epochs           20. Current error: 0.2525360882. Bit fail 8124.
+Epochs           30. Current error: 0.2498965114. Bit fail 8124.
+Epochs           40. Current error: 0.2498960793. Bit fail 8124.
+Epochs           50. Current error: 0.2498703897. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249618
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2505771816. Bit fail 8124.
+Epochs           10. Current error: 0.2648254633. Bit fail 6046.
+Epochs           20. Current error: 0.2580964863. Bit fail 8124.
+Epochs           30. Current error: 0.2503287494. Bit fail 8124.
+Epochs           40. Current error: 0.2499063015. Bit fail 8124.
+Epochs           50. Current error: 0.2498655915. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249615
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2520691752. Bit fail 8124.
+Epochs           10. Current error: 0.2645436227. Bit fail 6046.
+Epochs           20. Current error: 0.2513794005. Bit fail 8124.
+Epochs           30. Current error: 0.2499126196. Bit fail 8124.
+Epochs           40. Current error: 0.2498766631. Bit fail 8124.
+Epochs           50. Current error: 0.2498652637. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249634
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2493587136. Bit fail 8124.
+Epochs           10. Current error: 0.2435808927. Bit fail 4078.
+Epochs           20. Current error: 0.0186094437. Bit fail 307.
+Epochs           30. Current error: 0.0081303865. Bit fail 112.
+Epochs           40. Current error: 0.0024762384. Bit fail 33.
+Epochs           50. Current error: 0.0028069904. Bit fail 31.
+Testing network.
+MSE error on test data: 0.002681
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2490504235. Bit fail 8124.
+Epochs           10. Current error: 0.3109454811. Bit fail 6140.
+Epochs           20. Current error: 0.2511317134. Bit fail 8124.
+Epochs           30. Current error: 0.2498892844. Bit fail 8124.
+Epochs           40. Current error: 0.2498692870. Bit fail 8124.
+Epochs           50. Current error: 0.2498796731. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249639
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2533055842. Bit fail 8124.
+Epochs           10. Current error: 0.3355735540. Bit fail 4016.
+Epochs           20. Current error: 0.0046594082. Bit fail 91.
+Epochs           30. Current error: 0.0071845786. Bit fail 93.
+Epochs           40. Current error: 0.0025985790. Bit fail 38.
+Epochs           50. Current error: 0.0029462073. Bit fail 24.
+Testing network.
+MSE error on test data: 0.001932
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2479640841. Bit fail 8124.
+Epochs           10. Current error: 0.1149570569. Bit fail 2030.
+Epochs           20. Current error: 0.0288359690. Bit fail 418.
+Epochs           30. Current error: 0.0083812717. Bit fail 68.
+Epochs           40. Current error: 0.0052585616. Bit fail 80.
+Epochs           50. Current error: 0.0027390514. Bit fail 52.
+Testing network.
+MSE error on test data: 0.001305
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2509660721. Bit fail 8124.
+Epochs           10. Current error: 0.1554856598. Bit fail 2031.
+Epochs           20. Current error: 0.0027588150. Bit fail 38.
+Epochs           30. Current error: 0.0005875065. Bit fail 6.
+Epochs           40. Current error: 0.0053298934. Bit fail 45.
+Epochs           50. Current error: 0.0064936932. Bit fail 77.
+Testing network.
+MSE error on test data: 0.001936
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2533521950. Bit fail 8124.
+Epochs           10. Current error: 0.2738892138. Bit fail 6046.
+Epochs           20. Current error: 0.2548115849. Bit fail 8124.
+Epochs           30. Current error: 0.2503897548. Bit fail 8124.
+Epochs           40. Current error: 0.2498803884. Bit fail 8124.
+Epochs           50. Current error: 0.2498723716. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249608
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2494054437. Bit fail 8124.
+Epochs           10. Current error: 0.2861323655. Bit fail 6140.
+Epochs           20. Current error: 0.2555152178. Bit fail 8124.
+Epochs           30. Current error: 0.2499213070. Bit fail 8124.
+Epochs           40. Current error: 0.2498691231. Bit fail 8124.
+Epochs           50. Current error: 0.2498808503. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249642
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2559719980. Bit fail 8124.
+Epochs           10. Current error: 0.2551023662. Bit fail 8124.
+Epochs           20. Current error: 0.2501783073. Bit fail 8124.
+Epochs           30. Current error: 0.2499280423. Bit fail 8124.
+Epochs           40. Current error: 0.2498676181. Bit fail 8124.
+Epochs           50. Current error: 0.2498799413. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249621
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2488002628. Bit fail 8124.
+Epochs           10. Current error: 0.1031359956. Bit fail 2359.
+Epochs           20. Current error: 0.0141280089. Bit fail 61.
+Epochs           30. Current error: 0.0009691269. Bit fail 8.
+Epochs           40. Current error: 0.0022353607. Bit fail 23.
+Epochs           50. Current error: 0.0019943134. Bit fail 16.
+Testing network.
+MSE error on test data: 0.001229
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2513203025. Bit fail 8124.
+Epochs           10. Current error: 0.3248010874. Bit fail 3983.
+Epochs           20. Current error: 0.0375790708. Bit fail 436.
+Epochs           30. Current error: 0.0018947284. Bit fail 16.
+Epochs           40. Current error: 0.0032180706. Bit fail 54.
+Epochs           50. Current error: 0.0068564927. Bit fail 24.
+Testing network.
+MSE error on test data: 0.001830
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2497599423. Bit fail 8124.
+Epochs           10. Current error: 0.0961954072. Bit fail 1003.
+Epochs           20. Current error: 0.0020245868. Bit fail 21.
+Epochs           30. Current error: 0.0032257533. Bit fail 32.
+Epochs           40. Current error: 0.0044975304. Bit fail 53.
+Epochs           50. Current error: 0.0077393437. Bit fail 90.
+Testing network.
+MSE error on test data: 0.008436
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2515898049. Bit fail 8124.
+Epochs           10. Current error: 0.0354895443. Bit fail 415.
+Epochs           20. Current error: 0.0153557407. Bit fail 150.
+Epochs           30. Current error: 0.0062006619. Bit fail 64.
+Epochs           40. Current error: 0.0009188983. Bit fail 8.
+Epochs           50. Current error: 0.0055798851. Bit fail 81.
+Testing network.
+MSE error on test data: 0.004188
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2472644150. Bit fail 8124.
+Epochs           10. Current error: 0.2534415126. Bit fail 8124.
+Epochs           20. Current error: 0.2520425916. Bit fail 8124.
+Epochs           30. Current error: 0.2498784959. Bit fail 8124.
+Epochs           40. Current error: 0.2498562038. Bit fail 8124.
+Epochs           50. Current error: 0.2498876005. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249632
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2482471019. Bit fail 8124.
+Epochs           10. Current error: 0.1260327548. Bit fail 2025.
+Epochs           20. Current error: 0.0103619015. Bit fail 78.
+Epochs           30. Current error: 0.0083509954. Bit fail 68.
+Epochs           40. Current error: 0.0034121757. Bit fail 57.
+Epochs           50. Current error: 0.0063365134. Bit fail 52.
+Testing network.
+MSE error on test data: 0.006922
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2496586144. Bit fail 8124.
+Epochs           10. Current error: 0.1795569509. Bit fail 3831.
+Epochs           20. Current error: 0.0098977713. Bit fail 115.
+Epochs           30. Current error: 0.0036691416. Bit fail 33.
+Epochs           40. Current error: 0.0010553340. Bit fail 15.
+Epochs           50. Current error: 0.0029667325. Bit fail 24.
+Testing network.
+MSE error on test data: 0.001725
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2518466413. Bit fail 8124.
+Epochs           10. Current error: 0.1289595813. Bit fail 2495.
+Epochs           20. Current error: 0.0748871490. Bit fail 1150.
+Epochs           30. Current error: 0.0068438752. Bit fail 57.
+Epochs           40. Current error: 0.0044033523. Bit fail 59.
+Epochs           50. Current error: 0.0026569462. Bit fail 26.
+Testing network.
+MSE error on test data: 0.001664
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2481349260. Bit fail 8124.
+Epochs           10. Current error: 0.4422396123. Bit fail 3968.
+Epochs           20. Current error: 0.0044365125. Bit fail 56.
+Epochs           30. Current error: 0.0031365186. Bit fail 39.
+Epochs           40. Current error: 0.0046782978. Bit fail 71.
+Epochs           50. Current error: 0.0031977724. Bit fail 36.
+Testing network.
+MSE error on test data: 0.002002
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2490663975. Bit fail 8124.
+Epochs           10. Current error: 0.2738919854. Bit fail 6140.
+Epochs           20. Current error: 0.2504538000. Bit fail 8124.
+Epochs           30. Current error: 0.2498726100. Bit fail 8124.
+Epochs           40. Current error: 0.2498597205. Bit fail 8124.
+Epochs           50. Current error: 0.2498593926. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249634
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2522830665. Bit fail 8124.
+Epochs           10. Current error: 0.2522809207. Bit fail 8124.
+Epochs           20. Current error: 0.2520591617. Bit fail 8124.
+Epochs           30. Current error: 0.2498759478. Bit fail 8124.
+Epochs           40. Current error: 0.2498735189. Bit fail 8124.
+Epochs           50. Current error: 0.2498521656. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249595
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2478188723. Bit fail 8124.
+Epochs           10. Current error: 0.2855309248. Bit fail 6140.
+Epochs           20. Current error: 0.2551528811. Bit fail 8124.
+Epochs           30. Current error: 0.2499412745. Bit fail 8124.
+Epochs           40. Current error: 0.2498838603. Bit fail 8124.
+Epochs           50. Current error: 0.2498705685. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249638
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2488465458. Bit fail 8124.
+Epochs           10. Current error: 0.2882684767. Bit fail 4062.
+Epochs           20. Current error: 0.2498762012. Bit fail 8124.
+Epochs           30. Current error: 0.2499100715. Bit fail 8124.
+Epochs           40. Current error: 0.2498648018. Bit fail 8124.
+Epochs           50. Current error: 0.2498693913. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249623
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2507424355. Bit fail 8124.
+Epochs           10. Current error: 0.2141632289. Bit fail 3518.
+Epochs           20. Current error: 0.0225601513. Bit fail 327.
+Epochs           30. Current error: 0.0028948665. Bit fail 24.
+Epochs           40. Current error: 0.0035636667. Bit fail 43.
+Epochs           50. Current error: 0.0043020085. Bit fail 60.
+Testing network.
+MSE error on test data: 0.004739
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2522466779. Bit fail 8124.
+Epochs           10. Current error: 0.0462329388. Bit fail 669.
+Epochs           20. Current error: 0.0174392853. Bit fail 206.
+Epochs           30. Current error: 0.0048022354. Bit fail 40.
+Epochs           40. Current error: 0.0029350852. Bit fail 24.
+Epochs           50. Current error: 0.0029140287. Bit fail 24.
+Testing network.
+MSE error on test data: 0.002768
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2544113696. Bit fail 8124.
+Epochs           10. Current error: 0.1820497513. Bit fail 6709.
+Epochs           20. Current error: 0.0035674670. Bit fail 48.
+Epochs           30. Current error: 0.0029423099. Bit fail 24.
+Epochs           40. Current error: 0.0026647127. Bit fail 57.
+Epochs           50. Current error: 0.0024079976. Bit fail 24.
+Testing network.
+MSE error on test data: 0.004014
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2519584298. Bit fail 8124.
+Epochs           10. Current error: 0.2559379637. Bit fail 8124.
+Epochs           20. Current error: 0.2505879104. Bit fail 8124.
+Epochs           30. Current error: 0.2498656958. Bit fail 8124.
+Epochs           40. Current error: 0.2498803586. Bit fail 8124.
+Epochs           50. Current error: 0.2498820126. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249626
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2516305745. Bit fail 8124.
+Epochs           10. Current error: 0.2661048174. Bit fail 6046.
+Epochs           20. Current error: 0.2552154064. Bit fail 8124.
+Epochs           30. Current error: 0.2499022335. Bit fail 8124.
+Epochs           40. Current error: 0.2498891652. Bit fail 8124.
+Epochs           50. Current error: 0.2498679608. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249605
+Saving network.
+Cleaning up.
+Creating network.
+Training network.
+Max epochs       50. Desired error: 0.0001000000.
+Epochs            1. Current error: 0.2490363866. Bit fail 8124.
+Epochs           10. Current error: 0.2908777893. Bit fail 6140.
+Epochs           20. Current error: 0.2515869141. Bit fail 8124.
+Epochs           30. Current error: 0.2498703748. Bit fail 8124.
+Epochs           40. Current error: 0.2498665154. Bit fail 8124.
+Epochs           50. Current error: 0.2498704493. Bit fail 8124.
+Testing network.
+MSE error on test data: 0.249626
+Saving network.
+Cleaning up.
+Final Population
+50
+2.84788e+07 39.42 0  5 1 2 0 2 2 
+2.84788e+07 39.42 0  5 1 2 0 2 2 
+2.84771e+07 39.3968 0  5 1 1 1 2 2 
+2.84761e+07 39.3437 0  5 1 1 1 1 1 
+2.84761e+07 39.3183 0  5 1 1 0 0 1 
+2.8476e+07 39.2314 0  5 2 1 2 1 1 
+2.8476e+07 39.2314 0  5 2 1 2 1 1 
+2.84758e+07 39.1951 0  5 1 1 0 2 2 
+2.84757e+07 39.3595 0  5 1 1 1 1 1 
+2.84753e+07 36.8711 0  5 2 0 0 0 2 
+2.84748e+07 39.3011 0  5 2 1 1 1 1 
+2.84747e+07 39.241 0  5 1 2 2 1 1 
+2.84746e+07 37.6717 0  5 2 2 0 0 0 
+2.84742e+07 37.7537 0  5 2 2 1 0 0 
+2.84742e+07 36.8934 0  5 1 0 2 1 1 
+2.84739e+07 39.3197 0  5 1 2 0 2 2 
+2.84739e+07 36.76 0  5 2 0 2 1 1 
+2.84738e+07 37.8151 0  5 2 2 0 1 0 
+2.84737e+07 39.4154 0  5 1 1 0 2 1 
+2.84734e+07 37.6003 0  5 1 2 1 2 0 
+2.84731e+07 36.8032 0  5 2 0 1 0 1 
+2.84729e+07 37.6991 0  5 2 2 1 1 0 
+2.84725e+07 39.2827 0  5 2 1 0 1 1 
+2.84725e+07 39.2827 0  5 2 1 0 1 1 
+540563 32.1987 0  5 0 1 1 0 1 
+485214 32.258 0  5 0 2 2 1 1 
+485214 32.258 0  5 0 2 2 1 1 
+298168 32.1111 0  5 0 2 0 2 2 
+298168 32.1111 0  5 0 2 0 2 2 
+298168 32.1111 0  5 0 2 0 2 2 
+248650 31.9924 0  5 0 1 1 1 2 
+235714 32.1859 0  5 0 1 2 2 2 
+228309 32.2659 0  5 0 1 0 2 1 
+220779 30.9519 0  5 0 2 1 2 0 
+220265 30.8815 0  5 0 1 0 0 0 
+208678 30.8908 0  5 0 1 0 0 0 
+208460 32.1346 0  5 0 1 1 1 1 
+196663 28.8199 0  5 0 0 2 1 1 
+196521 32.4585 0  5 0 2 1 1 2 
+189753 31.0439 0  5 0 1 1 2 0 
+148735 31.9411 0  5 0 1 0 1 1 
+140144 30.668 0  5 0 2 2 2 0 
+134638 30.4242 0  5 0 2 2 2 0 
+134638 30.4242 0  5 0 2 2 2 0 
+111080 30.8184 0  5 0 1 0 0 0 
+93834.6 30.3079 0  5 0 2 2 2 0 
+470.324 8.96056 0  5 0 0 0 2 0 
+470.324 8.96056 0  5 0 0 0 2 0 
+470.324 8.96056 0  5 0 0 0 2 0 
+470.324 8.96056 0  5 0 0 0 2 0 
+
+
+
+
+[BELLEROPHON INFO] Final Archive
+8
+2.84788e+07 39.42 0  5 1 2 0 2 2 
+2.84737e+07 39.4154 0  5 1 1 0 2 1 
+2.84725e+07 39.2827 0  5 2 1 0 1 1 
+196521 32.4585 0  5 0 2 1 1 2 
+148735 31.9411 0  5 0 1 0 1 1 
+111080 30.8184 0  5 0 1 0 0 0 
+93834.6 30.3079 0  5 0 2 2 2 0 
+470.324 8.96056 0  5 0 0 0 2 0 
+
+[BELLEROPHON INFO] Acceptable solutions:
+Error 	Reward 	Penalty	#OP 	OP_0	OP_1	OP_2	OP_3	OP_4	
+Trying to read library_database.csv from ../src/build/

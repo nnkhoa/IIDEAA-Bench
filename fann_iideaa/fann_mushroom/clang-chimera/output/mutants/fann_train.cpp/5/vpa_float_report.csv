@@ -1,0 +1,5 @@
+OP_0,335,FLOAT,ADD,"error_prev_layer[i]","OP_1","NULL"
+OP_1,335,FLOAT,MUL,"tmp_error","weights[i]","NULL"
+OP_2,349,FLOAT,ADD,"error_begin[connections[i]-first_neuron]","OP_3","NULL"
+OP_3,349,FLOAT,MUL,"tmp_error","weights[i]","NULL"
+OP_4,360,FLOAT,MUL,"*error_prev_layer","fann_activation_derived(neuron_it->activation_function,neuron_it->activation_steepness,neuron_it->value,neuron_it->sum)","NULL"

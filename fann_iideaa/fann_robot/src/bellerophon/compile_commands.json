@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/opt/fann_iideaa/fann_robot/src/build",
+  "command": "/usr/bin/clang++    -I/usr/include/c++/6.3.1 -I/opt/fann_iideaa/fann_robot/src/include   -Wfatal-errors -fno-use-cxa-atexit -fPIC -g   -std=gnu++11 -o CMakeFiles/fann_robot.dir/robot.cpp.o -c /opt/fann_iideaa/fann_robot/src/robot.cpp",
+  "file": "/opt/fann_iideaa/fann_robot/src/robot.cpp"
+},
+{
+  "directory": "/opt/fann_iideaa/fann_robot/src/build",
+  "command": "/usr/bin/clang++    -I/usr/include/c++/6.3.1 -I/opt/fann_iideaa/fann_robot/src/include   -Wfatal-errors -fno-use-cxa-atexit -fPIC -g   -std=gnu++11 -o CMakeFiles/fann_robot.dir/fann.cpp.o -c /opt/fann_iideaa/fann_robot/src/fann.cpp",
+  "file": "/opt/fann_iideaa/fann_robot/src/fann.cpp"
+},
+{
+  "directory": "/opt/fann_iideaa/fann_robot/src/build",
+  "command": "/usr/bin/clang++    -I/usr/include/c++/6.3.1 -I/opt/fann_iideaa/fann_robot/src/include   -Wfatal-errors -fno-use-cxa-atexit -fPIC -g   -std=gnu++11 -o CMakeFiles/fann_robot.dir/fann_error.cpp.o -c /opt/fann_iideaa/fann_robot/src/fann_error.cpp",
+  "file": "/opt/fann_iideaa/fann_robot/src/fann_error.cpp"
+},
+{
+  "directory": "/opt/fann_iideaa/fann_robot/src/build",
+  "command": "/usr/bin/clang++    -I/usr/include/c++/6.3.1 -I/opt/fann_iideaa/fann_robot/src/include   -Wfatal-errors -fno-use-cxa-atexit -fPIC -g   -std=gnu++11 -o CMakeFiles/fann_robot.dir/fann_io.cpp.o -c /opt/fann_iideaa/fann_robot/src/fann_io.cpp",
+  "file": "/opt/fann_iideaa/fann_robot/src/fann_io.cpp"
+},
+{
+  "directory": "/opt/fann_iideaa/fann_robot/bellerophon",
+  "command": "/usr/bin/clang++    -I/usr/include/c++/6.3.1 -I/opt/fann_iideaa/fann_robot/src/include   -Wfatal-errors -fno-use-cxa-atexit -fPIC -g   -std=gnu++11 -o CMakeFiles/fann_robot.dir/fann_train.cpp.o -c /opt/fann_iideaa/fann_robot/clang-chimera/output/mutants/fann_train.cpp/5/fann_train.cpp",
+  "file": "/opt/fann_iideaa/fann_robot/clang-chimera/output/mutants/fann_train.cpp/5/fann_train.cpp"
+},
+{
+  "directory": "/opt/fann_iideaa/fann_robot/src/build",
+  "command": "/usr/bin/clang++    -I/usr/include/c++/6.3.1 -I/opt/fann_iideaa/fann_robot/src/include   -Wfatal-errors -fno-use-cxa-atexit -fPIC -g   -std=gnu++11 -o CMakeFiles/fann_robot.dir/fann_train_data.cpp.o -c /opt/fann_iideaa/fann_robot/src/fann_train_data.cpp",
+  "file": "/opt/fann_iideaa/fann_robot/src/fann_train_data.cpp"
+},
+{
+  "directory": "/opt/fann_iideaa/fann_robot/src/build",
+  "command": "/usr/bin/clang++    -I/usr/include/c++/6.3.1 -I/opt/fann_iideaa/fann_robot/src/include   -Wfatal-errors -fno-use-cxa-atexit -fPIC -g   -std=gnu++11 -o CMakeFiles/fann_robot.dir/fann_cascade.cpp.o -c /opt/fann_iideaa/fann_robot/src/fann_cascade.cpp",
+  "file": "/opt/fann_iideaa/fann_robot/src/fann_cascade.cpp"
+},
+{
+  "directory": "/opt/fann_iideaa/fann_robot/bellerophon",
+  "command": "/usr/bin/clang++    -I/opt/fann_iideaa/fann_robot/src/include    -fno-use-cxa-atexit -fPIC -g   -std=gnu++11 -o /opt/fann_iideaa/fann_robot/bellerophon/bellerophon_functions.cpp.o -c /opt/fann_iideaa/fann_robot/bellerophon/bellerophon_functions.cpp",
+  "file": "/opt/fann_iideaa/fann_robot/bellerophon/bellerophon_functions.cpp"
+}
+]

@@ -1,0 +1,2 @@
+int doMushroom(int mode);
+
