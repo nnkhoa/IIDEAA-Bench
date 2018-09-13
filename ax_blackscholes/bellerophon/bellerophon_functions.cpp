@@ -75,20 +75,20 @@ extern "C" double BELLERO_Reward()
 	gradeMant[1] = 54 - OP_1.mant_size;
 	gradeMant[2] = 54 - OP_2.mant_size;
 	gradeMant[3] = 54 - OP_3.mant_size;
-	gradeMant[4] = 54 - OP_4.mant_size;
-	gradeMant[5] = 54 - OP_5.mant_size;
-	gradeMant[6] = 54 - OP_6.mant_size;
-	gradeMant[7] = 54 - OP_7.mant_size;
+	gradeMant[4] = 23 - OP_4.mant_size;
+	gradeMant[5] = 23 - OP_5.mant_size;
+	gradeMant[6] = 23 - OP_6.mant_size;
+	gradeMant[7] = 23 - OP_7.mant_size;
 	gradeMant[8] = 54 - OP_8.mant_size;
 	gradeMant[9] = 54 - OP_9.mant_size;
 	gradeMant[10] = 54 - OP_10.mant_size;
-	gradeMant[11] = 54 - OP_11.mant_size;
+	gradeMant[11] = 23 - OP_11.mant_size;
 	gradeMant[12] = 54 - OP_12.mant_size;
-	gradeMant[13] = 54 - OP_13.mant_size;
+	gradeMant[13] = 23 - OP_13.mant_size;
 	gradeMant[14] = 54 - OP_14.mant_size;
-	gradeMant[15] = 54 - OP_15.mant_size;
-	gradeMant[16] = 54 - OP_16.mant_size;
-	gradeMant[17] = 54 - OP_17.mant_size;
+	gradeMant[15] = 23 - OP_15.mant_size;
+	gradeMant[16] = 23 - OP_16.mant_size;
+	gradeMant[17] = 23 - OP_17.mant_size;
 	gradeMant[18] = 54 - OP_18.mant_size;
 	gradeMant[19] = 54 - OP_19.mant_size;
 	
@@ -97,25 +97,26 @@ extern "C" double BELLERO_Reward()
 	gradeExp[1] = 11 - OP_1.exp_size;
 	gradeExp[2] = 11 - OP_2.exp_size;
 	gradeExp[3] = 11 - OP_3.exp_size;
-	gradeExp[4] = 11 - OP_4.exp_size;
-	gradeExp[5] = 11 - OP_5.exp_size;
-	gradeExp[6] = 11 - OP_6.exp_size;
-	gradeExp[7] = 11 - OP_7.exp_size;
+	gradeExp[4] = 8 - OP_4.exp_size;
+	gradeExp[5] = 8 - OP_5.exp_size;
+	gradeExp[6] = 8 - OP_6.exp_size;
+	gradeExp[7] = 8 - OP_7.exp_size;
 	gradeExp[8] = 11 - OP_8.exp_size;
 	gradeExp[9] = 11 - OP_9.exp_size;
 	gradeExp[10] = 11 - OP_10.exp_size;
-	gradeExp[11] = 11 - OP_11.exp_size;
+	gradeExp[11] = 8 - OP_11.exp_size;
 	gradeExp[12] = 11 - OP_12.exp_size;
-	gradeExp[13] = 11 - OP_13.exp_size;
+	gradeExp[13] = 8 - OP_13.exp_size;
 	gradeExp[14] = 11 - OP_14.exp_size;
-	gradeExp[15] = 11 - OP_15.exp_size;
-	gradeExp[16] = 11 - OP_16.exp_size;
-	gradeExp[17] = 11 - OP_17.exp_size;
+	gradeExp[15] = 8 - OP_15.exp_size;
+	gradeExp[16] = 8 - OP_16.exp_size;
+	gradeExp[17] = 8 - OP_17.exp_size;
 	gradeExp[18] = 11 - OP_18.exp_size;
 	gradeExp[19] = 11 - OP_19.exp_size;
 
 	for(int i = 0; i < 20; i++)
-		rew+=gradeMant[i]*gradeMant[i]+gradeExp[i];
+		// ???
+		rew+=gradeMant[i]+gradeExp[i];
 //printf("Reward: %g\n\n", rew);
 	return rew;
 }

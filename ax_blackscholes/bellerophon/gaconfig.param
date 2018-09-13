@@ -5,7 +5,7 @@
 --seed=1203083493                        # -S : Random number seed
 
 ######    Evolution Engine        ######
---popSize=500                              # -P : Population Size
+--popSize=800                              # -P : Population Size
 
 ######    Stopping criterion      ######
 --maxGen=25                               # -G : Maximum number of generations
@@ -14,5 +14,5 @@
 --crossRate=1                              # Relative rate for the only crossover
 --shiftMutRate=0.5                         # Relative rate for shift mutation
 --exchangeMutRate=0.5                      # Relative rate for exchange mutation
---pCross=0.5                              # -c : Probability of Crossover
+--pCross=0.35                             # -c : Probability of Crossover
 --pMut=0.15                               # -m : Probability of Mutation
