@@ -79,22 +79,22 @@ extern "C" double BELLERO_Reward()
 	int gradeMant[6];
 	int gradeExp[6];
 
-	gradeMant[0] = 54 - OP_0.mant_size;
-	gradeMant[1] = 54 - OP_1.mant_size;
-	gradeMant[2] = 54 - OP_2.mant_size;
-	gradeMant[3] = 54 - OP_3.mant_size;
-	gradeMant[4] = 54 - OP_4.mant_size;
-	gradeMant[5] = 54 - OP_5.mant_size;
+	gradeMant[0] = 23 - OP_0.mant_size;
+	gradeMant[1] = 23 - OP_1.mant_size;
+	gradeMant[2] = 23 - OP_2.mant_size;
+	gradeMant[3] = 23 - OP_3.mant_size;
+	gradeMant[4] = 23 - OP_4.mant_size;
+	gradeMant[5] = 23 - OP_5.mant_size;
     
-	gradeExp[0] = 11 - OP_0.exp_size;
-	gradeExp[1] = 11 - OP_1.exp_size;
-	gradeExp[2] = 11 - OP_2.exp_size;
-	gradeExp[3] = 11 - OP_3.exp_size;
-	gradeExp[4] = 11 - OP_4.exp_size;
-	gradeExp[5] = 11 - OP_5.exp_size;
+	gradeExp[0] = 8 - OP_0.exp_size;
+	gradeExp[1] = 8 - OP_1.exp_size;
+	gradeExp[2] = 8 - OP_2.exp_size;
+	gradeExp[3] = 8 - OP_3.exp_size;
+	gradeExp[4] = 8 - OP_4.exp_size;
+	gradeExp[5] = 8 - OP_5.exp_size;
 	
 	for(int i = 0; i < 6; i++)
-		rew+=gradeMant[i]*gradeMant[i]+gradeExp[i];
+		rew+=gradeMant[i]+gradeExp[i];
 //printf("Reward: %g\n\n", rew);
 	return rew;
 }
