@@ -49,3 +49,9 @@ dockerCleanup.sh
 #libraries
 libjpeg-turbo-1.5.3/
 
+#logfile
+bellerophonLog
+
+#cvsfile
+vpa_n_float_report.csv
+report.csv
