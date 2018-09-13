@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/opt/ax_jmeint/bellerophon",
+  "command": "/usr/bin/clang++    -I/usr/include/c++/6.3.1 -I/opt/ax_jmeint/src/.   -Wfatal-errors -fno-use-cxa-atexit -fPIC -g   -std=gnu++11 -o CMakeFiles/jmeint.dir/tritri.cpp.o -c /opt/ax_jmeint/clang-chimera/output/mutants/tritri.cpp/4/tritri.cpp",
+  "file": "/opt/ax_jmeint/clang-chimera/output/mutants/tritri.cpp/4/tritri.cpp"
+},
+{
+  "directory": "/opt/ax_jmeint/src/build",
+  "command": "/usr/bin/clang++    -I/usr/include/c++/6.3.1 -I/opt/ax_jmeint/src/.   -Wfatal-errors -fno-use-cxa-atexit -fPIC -g   -std=gnu++11 -o CMakeFiles/jmeint.dir/jmeint.cpp.o -c /opt/ax_jmeint/src/jmeint.cpp",
+  "file": "/opt/ax_jmeint/src/jmeint.cpp"
+},
+{	
+	"directory": "/opt/ax_jmeint/bellerophon",
+	"command": "/usr/bin/clang++    -I/opt/ax_jmeint/src/.    -fno-use-cxa-atexit -fPIC -g   -std=gnu++11 -o /opt/ax_jmeint/bellerophon/bellerophon_functions.cpp.o -c /opt/ax_jmeint/bellerophon/bellerophon_functions.cpp",
+	"file": "/opt/ax_jmeint/bellerophon/bellerophon_functions.cpp"
+}
+]
