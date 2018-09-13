@@ -7,7 +7,7 @@
 
 #include <cmath>
 #include "kinematics.hpp"
-#include "vpa_n.h"
+#include "vpa.h"
 
 float l1 = 0.5 ;
 float l2 = 0.5 ;
